@@ -1,0 +1,23 @@
+{
+  "huds": [
+    {
+      "id": "ChargeHud",
+      "name": "@ChargeHud",
+      "type": "small",
+      "background": "@ChargeBackground",
+      "icons": [
+        "@ChargeIcon"
+      ],
+      "class": "@ClassDeva",
+      "display": "battle_only",
+      "tooltip_titles": {
+        "english": "Charge",
+        "chinese": "充能"
+      },
+      "tooltip_texts": {
+        "english": "Spend [sanson.DevaClan_Charge] equal to remaining cooldown to activate a cooling unit ability.",
+        "chinese": "激活冷却中的单位能力时，消耗等于剩余冷却回合数的[sanson.DevaClan_Charge]。"
+      }
+    }
+  ]
+}

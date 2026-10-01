@@ -1,0 +1,415 @@
+{
+  "upgrades": [
+    {
+      "id": "EphemeralUpgrade",
+      "trait_upgrades": [
+        "@Ephemeral"
+      ]
+    },
+    {
+      "id": "StatGrowth",
+      "titles": {
+        "english": "Reconstruction",
+        "chinese": "重塑"
+      },
+      "upgrade_will_be_scaled_by_non_magic_power_trait": true
+    },
+    {
+      "id": "RebirthFree",
+      "titles": {
+        "english": "Rebirth",
+        "chinese": "往生"
+      },
+      "upgrade_will_be_scaled_by_non_magic_power_trait": true
+    },
+    {
+      "id": "GiantGrowth1",
+      "titles": {
+        "english": "Giant improvement",
+        "chinese": "巨大造物改进"
+      },
+      "hide_icon_on_card": true,
+      "show_description_on_cards": false
+    },
+    {
+      "id": "GiantGrowth2",
+      "titles": {
+        "english": "Giant improvement",
+        "chinese": "巨大造物改进"
+      },
+      "hide_icon_on_card": true,
+      "show_description_on_cards": false
+    },
+    {
+      "id": "GiantGrowth3",
+      "titles": {
+        "english": "Giant improvement",
+        "chinese": "巨大造物改进"
+      },
+      "hide_icon_on_card": true,
+      "show_description_on_cards": false
+    },
+    {
+      "id": "MaraCreator1",
+      "titles": {
+        "english": "Creator",
+        "chinese": "造物主"
+      },
+      "bonus_damage": 0,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "ability_upgrade": "@PerfectCreation1"
+    },
+    {
+      "id": "MaraCreator2",
+      "titles": {
+        "english": "Creator II",
+        "chinese": "造物主 II"
+      },
+      "bonus_damage": 20,
+      "bonus_hp": 20,
+      "remove_upgrades": [
+        "@MaraCreator1"
+      ],
+      "ability_upgrade": "@PerfectCreation2"
+    },
+    {
+      "id": "MaraCreator3",
+      "titles": {
+        "english": "Creator III",
+        "chinese": "造物主 III"
+      },
+      "bonus_damage": 40,
+      "bonus_hp": 40,
+      "remove_upgrades": [
+        "@MaraCreator1",
+        "@MaraCreator2"
+      ],
+      "ability_upgrade": "@PerfectCreation3"
+    },
+    {
+      "id": "MaraLiberation1",
+      "titles": {
+        "english": "Liberation",
+        "chinese": "他化自在"
+      },
+      "bonus_damage": 0,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "trigger_upgrades": [
+        "@MaraLiberationEvoke1"
+      ],
+      "descriptions": {
+        "english": "At turn start, friendly units here retain half (rounded down) [sanson.DevaClan_karmergy].",
+        "chinese": "回合开始时，本层友方保留一半（向下取整）[sanson.DevaClan_karmergy]。"
+      },
+      "show_description_on_cards": true
+    },
+    {
+      "id": "MaraLiberation2",
+      "titles": {
+        "english": "Liberation II",
+        "chinese": "他化自在 II"
+      },
+      "bonus_damage": 20,
+      "bonus_hp": 20,
+      "remove_upgrades": [
+        "@MaraLiberation1"
+      ],
+      "trigger_upgrades": [
+        "@MaraLiberationEvoke2"
+      ],
+      "descriptions": {
+        "english": "At turn start, friendly units here retain half (rounded down) [sanson.DevaClan_karmergy].",
+        "chinese": "回合开始时，本层友方保留一半（向下取整）[sanson.DevaClan_karmergy]。"
+      },
+      "show_description_on_cards": true
+    },
+    {
+      "id": "MaraLiberation3",
+      "titles": {
+        "english": "Liberation III",
+        "chinese": "他化自在 III"
+      },
+      "bonus_damage": 40,
+      "bonus_hp": 40,
+      "remove_upgrades": [
+        "@MaraLiberation1",
+        "@MaraLiberation2"
+      ],
+      "trigger_upgrades": [
+        "@MaraLiberationEvoke3"
+      ],
+      "descriptions": {
+        "english": "At turn start, friendly units here retain all [sanson.DevaClan_karmergy].",
+        "chinese": "回合开始时，本层友方保留全部[sanson.DevaClan_karmergy]。"
+      },
+      "show_description_on_cards": true
+    },
+    {
+      "id": "MaraAsura1",
+      "titles": {
+        "english": "Asura",
+        "chinese": "阿修罗"
+      },
+      "bonus_damage": 5,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "bonus_size": 1,
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@MaraAsuraSlay1"
+      ]
+    },
+    {
+      "id": "MaraAsura2",
+      "titles": {
+        "english": "Asura II",
+        "chinese": "阿修罗 II"
+      },
+      "bonus_damage": 30,
+      "bonus_hp": 20,
+      "remove_upgrades": [
+        "@MaraAsura1"
+      ],
+      "bonus_size": 1,
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@MaraAsuraSlay2"
+      ]
+    },
+    {
+      "id": "MaraAsura3",
+      "titles": {
+        "english": "Asura III",
+        "chinese": "阿修罗 III"
+      },
+      "bonus_damage": 60,
+      "bonus_hp": 40,
+      "remove_upgrades": [
+        "@MaraAsura1",
+        "@MaraAsura2"
+      ],
+      "bonus_size": 1,
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@MaraAsuraSlay3"
+      ]
+    },
+    {
+      "id": "NayutaServer1",
+      "titles": {
+        "english": "Server",
+        "chinese": "伺服器"
+      },
+      "bonus_damage": 5,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@NayutaServerEvoke1"
+      ]
+    },
+    {
+      "id": "NayutaServer2",
+      "titles": {
+        "english": "Server II",
+        "chinese": "伺服器 II"
+      },
+      "bonus_damage": 15,
+      "bonus_hp": 5,
+      "remove_upgrades": [
+        "@NayutaServer1"
+      ],
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@NayutaServerEvoke2"
+      ]
+    },
+    {
+      "id": "NayutaServer3",
+      "titles": {
+        "english": "Server III",
+        "chinese": "伺服器 III"
+      },
+      "bonus_damage": 30,
+      "bonus_hp": 15,
+      "remove_upgrades": [
+        "@NayutaServer1",
+        "@NayutaServer2"
+      ],
+      "status_effect_upgrades": [
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "trigger_upgrades": [
+        "@NayutaServerEvoke3"
+      ]
+    },
+    {
+      "id": "NayutaSwarm1",
+      "titles": {
+        "english": "Swarm Assault",
+        "chinese": "蜂群攻势"
+      },
+      "bonus_damage": 0,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "trigger_upgrades": [
+        "@NayutaSwarmEvoke1"
+      ]
+    },
+    {
+      "id": "NayutaSwarm2",
+      "titles": {
+        "english": "Swarm Assault II",
+        "chinese": "蜂群攻势 II"
+      },
+      "bonus_damage": 5,
+      "bonus_hp": 5,
+      "remove_upgrades": [
+        "@NayutaSwarm1"
+      ],
+      "trigger_upgrades": [
+        "@NayutaSwarmEvoke2"
+      ]
+    },
+    {
+      "id": "NayutaSwarm3",
+      "titles": {
+        "english": "Swarm Assault III",
+        "chinese": "蜂群攻势 III"
+      },
+      "bonus_damage": 15,
+      "bonus_hp": 15,
+      "remove_upgrades": [
+        "@NayutaSwarm1",
+        "@NayutaSwarm2"
+      ],
+      "trigger_upgrades": [
+        "@NayutaSwarmEvoke3"
+      ]
+    },
+    {
+      "id": "NayutaRecreate1",
+      "titles": {
+        "english": "Recreation",
+        "chinese": "再创造"
+      },
+      "bonus_damage": 0,
+      "bonus_hp": 0,
+      "remove_upgrades": [],
+      "trigger_upgrades": [
+        "@NayutaRecreateSummon1"
+      ],
+      "ability_upgrade": "@Improve1"
+    },
+    {
+      "id": "NayutaRecreate2",
+      "titles": {
+        "english": "Recreation II",
+        "chinese": "再创造 II"
+      },
+      "bonus_damage": 5,
+      "bonus_hp": 5,
+      "remove_upgrades": [
+        "@NayutaRecreate1"
+      ],
+      "trigger_upgrades": [
+        "@NayutaRecreateSummon2"
+      ],
+      "ability_upgrade": "@Improve2"
+    },
+    {
+      "id": "NayutaRecreate3",
+      "titles": {
+        "english": "Recreation III",
+        "chinese": "再创造 III"
+      },
+      "bonus_damage": 15,
+      "bonus_hp": 15,
+      "remove_upgrades": [
+        "@NayutaRecreate1",
+        "@NayutaRecreate2"
+      ],
+      "trigger_upgrades": [
+        "@NayutaRecreateSummon3"
+      ],
+      "ability_upgrade": "@Improve3"
+    },
+    {
+      "id": "AsuraArenaUpgrade",
+      "icon": "@AsuraArenaIcon",
+      "status_effect_upgrades": [
+        {
+          "status": "relentless",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "MeditationChamberUpgrade",
+      "icon": "@MeditationChamberIcon",
+      "room_modifier_upgrades": [
+        "@MeditationCapacity"
+      ],
+      "room_ability_upgrade": "@CollectiveRites"
+    },
+    {
+      "id": "AccelerationMatrixUpgrade",
+      "icon": "@AccelerationMatrixIcon",
+      "room_modifier_upgrades": [
+        "@AccelerationSpawn"
+      ]
+    },
+    {
+      "id": "ChargedSpearUpgrade",
+      "bonus_damage": 6,
+      "bonus_hp": 0,
+      "icon": "@ChargedSpearIcon",
+      "trigger_upgrades": [
+        "@SpearEvoke"
+      ]
+    },
+    {
+      "id": "SoulBackupUpgrade",
+      "bonus_damage": 20,
+      "bonus_hp": 20,
+      "icon": "@SoulBackupIcon"
+    },
+    {
+      "id": "AsuraDriveUpgrade",
+      "bonus_damage": 20,
+      "bonus_hp": 0,
+      "icon": "@AsuraDriveIcon",
+      "ability_upgrade": "@AsuraSecret"
+    }
+  ]
+}

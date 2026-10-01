@@ -1,0 +1,101 @@
+{
+  "build": "0.2.9",
+  "compiler": "C# 4.11 / .NET 8 SDK 8.0.425",
+  "compilation": "passed",
+  "schema_and_content": {
+    "passed": true,
+    "errors": [],
+    "counts": {
+      "additional_tooltips": 3,
+      "card_pools": 1,
+      "card_triggers": 1,
+      "cards": 66,
+      "character_triggers": 19,
+      "characters": 21,
+      "class_card_styles": 1,
+      "classes": 1,
+      "effects": 90,
+      "game_objects": 71,
+      "huds": 1,
+      "map_nodes": 1,
+      "relic_effects": 2,
+      "relics": 10,
+      "replacement_texts": 2,
+      "rewards": 1,
+      "room_modifiers": 2,
+      "sprites": 118,
+      "status_effects": 2,
+      "subtypes": 2,
+      "tracked_value_types": 1,
+      "traits": 4,
+      "upgrades": 30
+    }
+  },
+  "game_patch_metadata": {
+    "passed": true,
+    "targets": 28
+  },
+  "combat_regression": {
+    "passed": true,
+    "checks": 130,
+    "method": "Installed managed game objects with inert Unity handles; includes source guards. Not a Unity playtest."
+  },
+  "ui_state_regression": {
+    "passed": true,
+    "method": "Managed regression verifies clickable Charge-ready states retain cooldown and render with native cooldown state; silenced, deployment, unaffordable and ready states remain distinct. Actual Unity tint, layout and interaction not playtested."
+  },
+  "localization_regression": {
+    "passed": true,
+    "checks": 113,
+    "method": "Real installed game/Trainworks assemblies; includes custom keyword and card trigger terms."
+  },
+  "content_runtime_regression": {
+    "passed": true,
+    "checks": 288,
+    "method": "Installed framework JSON merger, class-name resolver, effect construction, native trigger enum/reference checks and game keyword parser. Full pipeline finalization needs Unity/Mono and was not executed."
+  },
+  "construct_content_checks": {
+    "passed": true,
+    "random_pool_size": 6,
+    "cardless_variants": 5,
+    "starter_remains_card": true
+  },
+  "runtime": {
+    "executed": false,
+    "reason": "No Unity playtest or full undo replay was executed for this bugfix candidate. See BUGFIX-NOTES.md for evidence, limitations and acceptance checklist."
+  },
+  "validation_logs": {
+    "build.ps1": "Microsoft(R) Visual C# 编译器 版本 4.11.0-3.25569.22 (3fb752d4)\r\n版权所有(C) Microsoft Corporation。保留所有权利。\r\n\r\n",
+    "test-combat.ps1": "Microsoft(R) Visual C# 编译器 版本 4.11.0-3.25569.22 (3fb752d4)\r\n版权所有(C) Microsoft Corporation。保留所有权利。\r\n\r\nwarning CS1701: 假定“System.Memory”使用的程序集引用“netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”与“netstandard”的标识“netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”匹配，您可能需要提供运行时策略\r\nPASS: 130 combat managed regression checks (not Unity playtesting).\r\n",
+    "validate-patches.ps1": "PASS: 28 Harmony targets, named arguments, injected fields and coroutine return signatures match the installed game.\r\n",
+    "test-localization.ps1": "Microsoft(R) Visual C# 编译器 版本 4.11.0-3.25569.22 (3fb752d4)\r\n版权所有(C) Microsoft Corporation。保留所有权利。\r\n\r\nPASS: 113 localization regression checks using installed game and Trainworks assemblies.\r\n",
+    "test-content-runtime.ps1": "Microsoft(R) Visual C# 编译器 版本 4.11.0-3.25569.22 (3fb752d4)\r\n版权所有(C) Microsoft Corporation。保留所有权利。\r\n\r\nwarning CS1701: 假定“Microsoft.Extensions.FileProviders.Physical”使用的程序集引用“netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”与“netstandard”的标识“netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”匹配，您可能需要提供运行时策略\r\nwarning CS1701: 假定“Microsoft.Extensions.Configuration”使用的程序集引用“netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”与“netstandard”的标识“netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”匹配，您可能需要提供运行时策略\r\nwarning CS1701: 假定“Microsoft.Extensions.Configuration.Abstractions”使用的程序集引用“netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”与“netstandard”的标识“netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51”匹配，您可能需要提供运行时策略\r\nPASS: 288 content runtime checks using installed framework and game assemblies.\r\n"
+  },
+  "content_files_sha256": {
+    "additional_tooltips.json": "0065a85d8ebdeaf998a3ade15c7660de62749e427ada4ba0b7f6762333a693cf",
+    "card_pools.json": "b4e42b737eb75d81f4c0343d8b9fdcadd3a68b54d1d233be9d01de8a177721ba",
+    "card_triggers.json": "d3df57aabacd463dc198cb168895fb35a4b2ff795e6372b2836c47747c9a5ad6",
+    "cards.json": "2aeade676ec974331b54fc729f0e7f788668312370f1db964f9aa3d69006cb75",
+    "character_triggers.json": "baf22f0689b0389ec16355238a0a84c7bbc3985ff7b033e7bf3e067fd2592ee8",
+    "characters.json": "55e18ae4b54469cbaecdd027aebde7b81062af817be23d259ef49fbbf0657414",
+    "class_card_styles.json": "2d219895b829743c55490082fd66e371d7e94c170d636cb724ec02a5db048402",
+    "classes.json": "01835d02c74f2de13e5cae82e89c57c585b8055e8fbfb3d2737b071c635623e2",
+    "effects.json": "ad54fdeb9ca8ae176e9c327f07b462175c18da73504a52d3778e8fe0e0ef1eaa",
+    "game_objects.json": "70474f2f185dd62dc4bcfa443b9d3823b9bbeda6edecf0dbfe20474f9793f9f3",
+    "huds.json": "7b526296eff41691b3cdbbe178a10986b0edc9dd52fd27ac434d3efe90e15b06",
+    "map_nodes.json": "9cd9adf08bef8ac221386d5ab1c9f4f72fff24c125784ce20d2afe562ac756c3",
+    "relic_effects.json": "d11ad4c81582a5a14ebcd7c6665f947457486979d3def12b1dd8d7f2b083e0b0",
+    "relics.json": "38ebc4685400fc747d1b156e647535bbb007893b2e216db2b2dee711350dd06e",
+    "replacement_texts.json": "975c827362430de56ab1f6729e4e1904ee2b240ae501a96795831d1f46ef5b95",
+    "rewards.json": "8bd2db0c8b4ce3725ab59a03a852f4d475643b1c512a8bc79948d49af742d208",
+    "room_modifiers.json": "20058412a1bd587f372cbfc2cb2547ed7497e6f8ea9d85693ea87c3e74e0e034",
+    "sprites.json": "6e6741f79e769eb6358b2289829da6a5d6d400e9e3c57109d7b173751f2ef5dd",
+    "status_effects.json": "cdac6f785d8a806d4f1207b0ba53d77301c08742edee04dc4b3a45e3ce22886a",
+    "subtypes.json": "36ebfaad8cfbdbc4a62df79bde888b9b0ecab8351ec82711b1dc5ffdd6272b4f",
+    "tracked_value_types.json": "7416b931d0cb06bc316250522e1b4229c047b6fae1586de179877afba7d59353",
+    "traits.json": "db977582e7dd48da82a7fc854bcd16fa66dda153b7dd09973f48579713b7763a",
+    "upgrades.json": "ab79febe4852f2f2d9712086af0ef2bd93df44f90bc5573ed20b7ccf2568ae3c"
+  },
+  "content_sha256": "4f8abb38ccb54e8afc838609948a11806461ec7108b6c857c04ff113c680d500",
+  "assembly_sha256": "d22bfe0c6557c4225fd94ec005111d64ebced0de6081fdc01b7ce22aedbc39da"
+}

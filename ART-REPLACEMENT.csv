@@ -1,0 +1,119 @@
+﻿ID,中文名称,English name,路径 / Path,宽 / Width,高 / Height
+BasicClanEquipmentRoomBorder,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/card_borders/BasicCardBorderEquipmentRoom.png,504,588
+BasicClanUnitBorder,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/card_borders/BasicCardBorderUnit.png,504,588
+BasicClanSpellBorder,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/card_borders/BasicCardBorderSpell.png,504,588
+BasicBannerMapIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/BasicBanner_MapIcon.png,185,244
+ClanBannerMinimapIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/ClanBannerMinimapIcon.png,32,32
+BasicBannerDisabledMapIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/BasicBanner_Disabled.png,420,420
+BasicBannerEnabledMapIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/BasicBanner_Enabled.png,420,420
+BasicBannerFrozenMapIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/BasicBanner_Frozen.png,420,420
+BasicBannerVisitedDisabledIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/banners/BasicBanner_VisitedDisabled.png,420,420
+KarmaIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/KarmaIcon.png,48,48
+ChargeBackground,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/ui/ChargeBackground.png,124,172
+ChargeIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/ui/ChargeIcon.png,72,88
+MantraCardSprite,真言,Mantra,BepInEx/plugins/DevaClan/textures/card_art/Mantra.png,256,256
+NayutaConstructCardSprite,那由多的造物,Nayuta's Construct,BepInEx/plugins/DevaClan/textures/card_art/NayutaConstruct.png,256,256
+NayutaConstructUnitSprite,那由多的造物,Nayuta's Construct,BepInEx/plugins/DevaClan/textures/character_art/NayutaConstruct.png,256,256
+AsuraSwordsmanCardSprite,修罗剑豪,Asura Swordsman,BepInEx/plugins/DevaClan/textures/card_art/AsuraSwordsman.png,256,256
+AsuraSwordsmanUnitSprite,修罗剑豪,Asura Swordsman,BepInEx/plugins/DevaClan/textures/character_art/AsuraSwordsman.png,256,256
+GuardConstructCardSprite,守卫造物,Guard Construct,BepInEx/plugins/DevaClan/textures/card_art/GuardConstruct.png,256,256
+GuardConstructUnitSprite,守卫造物,Guard Construct,BepInEx/plugins/DevaClan/textures/character_art/GuardConstruct.png,256,256
+ChantTechnicianCardSprite,诵经技师,Chant Technician,BepInEx/plugins/DevaClan/textures/card_art/ChantTechnician.png,256,256
+ChantTechnicianUnitSprite,诵经技师,Chant Technician,BepInEx/plugins/DevaClan/textures/character_art/ChantTechnician.png,256,256
+MechSpiderCardSprite,机械蜘蛛,Mech Spider,BepInEx/plugins/DevaClan/textures/card_art/MechSpider.png,256,256
+MechSpiderUnitSprite,机械蜘蛛,Mech Spider,BepInEx/plugins/DevaClan/textures/character_art/MechSpider.png,256,256
+ResonanceConstructCardSprite,共鸣造物,Resonance Construct,BepInEx/plugins/DevaClan/textures/card_art/ResonanceConstruct.png,256,256
+ResonanceConstructUnitSprite,共鸣造物,Resonance Construct,BepInEx/plugins/DevaClan/textures/character_art/ResonanceConstruct.png,256,256
+RitualTechnicianCardSprite,超度技师,Ritual Technician,BepInEx/plugins/DevaClan/textures/card_art/RitualTechnician.png,256,256
+RitualTechnicianUnitSprite,超度技师,Ritual Technician,BepInEx/plugins/DevaClan/textures/character_art/RitualTechnician.png,256,256
+IdatenCardSprite,韦驮天造物,Idaten Construct,BepInEx/plugins/DevaClan/textures/card_art/Idaten.png,256,256
+IdatenUnitSprite,韦驮天造物,Idaten Construct,BepInEx/plugins/DevaClan/textures/character_art/Idaten.png,256,256
+VajraCardSprite,造物金刚,Vajra Construct,BepInEx/plugins/DevaClan/textures/card_art/Vajra.png,256,256
+VajraUnitSprite,造物金刚,Vajra Construct,BepInEx/plugins/DevaClan/textures/character_art/Vajra.png,256,256
+SirenCardSprite,妙音歌姬,Melodic Siren,BepInEx/plugins/DevaClan/textures/card_art/Siren.png,256,256
+SirenUnitSprite,妙音歌姬,Melodic Siren,BepInEx/plugins/DevaClan/textures/character_art/Siren.png,256,256
+ChargeGunnerCardSprite,充能枪手,Charge Gunner,BepInEx/plugins/DevaClan/textures/card_art/ChargeGunner.png,256,256
+ChargeGunnerUnitSprite,充能枪手,Charge Gunner,BepInEx/plugins/DevaClan/textures/character_art/ChargeGunner.png,256,256
+EmberConverterCardSprite,薪火转换器,Ember Converter,BepInEx/plugins/DevaClan/textures/card_art/EmberConverter.png,256,256
+EmberConverterUnitSprite,薪火转换器,Ember Converter,BepInEx/plugins/DevaClan/textures/character_art/EmberConverter.png,256,256
+AttackConstructCardSprite,攻击造物,Attack Construct,BepInEx/plugins/DevaClan/textures/card_art/AttackConstruct.png,256,256
+AttackConstructUnitSprite,攻击造物,Attack Construct,BepInEx/plugins/DevaClan/textures/character_art/AttackConstruct.png,256,256
+SinnerCardSprite,沉湎罪人,Indulgent Sinner,BepInEx/plugins/DevaClan/textures/card_art/Sinner.png,256,256
+SinnerUnitSprite,沉湎罪人,Indulgent Sinner,BepInEx/plugins/DevaClan/textures/character_art/Sinner.png,256,256
+Perfect1CardSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/card_art/Perfect1.png,256,256
+Perfect1UnitSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/character_art/Perfect1.png,256,256
+Perfect2CardSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/card_art/Perfect2.png,256,256
+Perfect2UnitSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/character_art/Perfect2.png,256,256
+Perfect3CardSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/card_art/Perfect3.png,256,256
+Perfect3UnitSprite,完美造物,Perfect Construct,BepInEx/plugins/DevaClan/textures/character_art/Perfect3.png,256,256
+GiantCardSprite,那由多的巨大造物,Nayuta's Giant Construct,BepInEx/plugins/DevaClan/textures/card_art/Giant.png,256,256
+GiantUnitSprite,那由多的巨大造物,Nayuta's Giant Construct,BepInEx/plugins/DevaClan/textures/character_art/Giant.png,256,256
+FirewallCardSprite,防火墙造物,Firewall Construct,BepInEx/plugins/DevaClan/textures/card_art/Firewall.png,256,256
+FirewallUnitSprite,防火墙造物,Firewall Construct,BepInEx/plugins/DevaClan/textures/character_art/Firewall.png,256,256
+MaraCardSprite,“魔罗”波甸,Mara Podian,BepInEx/plugins/DevaClan/textures/card_art/Mara.png,256,256
+MaraUnitSprite,“魔罗”波甸,Mara Podian,BepInEx/plugins/DevaClan/textures/character_art/Mara.png,256,256
+NayutaCardSprite,“初号机”那由多,"Nayuta, Unit Zero",BepInEx/plugins/DevaClan/textures/card_art/Nayuta.png,256,256
+NayutaUnitSprite,“初号机”那由多,"Nayuta, Unit Zero",BepInEx/plugins/DevaClan/textures/character_art/Nayuta.png,256,256
+FormatCardSprite,格式化,Format,BepInEx/plugins/DevaClan/textures/card_art/Format.png,256,256
+CreationCardSprite,创造之术,Creation Art,BepInEx/plugins/DevaClan/textures/card_art/Creation.png,256,256
+RestartCardSprite,重启,Restart,BepInEx/plugins/DevaClan/textures/card_art/Restart.png,256,256
+NectarCardSprite,乐欲甘露,Nectar of Desire,BepInEx/plugins/DevaClan/textures/card_art/Nectar.png,256,256
+IsolationCardSprite,隔离,Isolation,BepInEx/plugins/DevaClan/textures/card_art/Isolation.png,256,256
+ExorciseCardSprite,除魔,Exorcise,BepInEx/plugins/DevaClan/textures/card_art/Exorcise.png,256,256
+LiberationCardSprite,解脱,Liberation,BepInEx/plugins/DevaClan/textures/card_art/Liberation.png,256,256
+AsceticismCardSprite,苦修,Asceticism,BepInEx/plugins/DevaClan/textures/card_art/Asceticism.png,256,256
+NirvanaCardSprite,涅槃,Nirvana,BepInEx/plugins/DevaClan/textures/card_art/Nirvana.png,256,256
+ProtectCardSprite,护法,Dharma Protector,BepInEx/plugins/DevaClan/textures/card_art/Protect.png,256,256
+SamadhiCardSprite,入定,Samadhi,BepInEx/plugins/DevaClan/textures/card_art/Samadhi.png,256,256
+HologramCardSprite,全息投影,Holographic Projection,BepInEx/plugins/DevaClan/textures/card_art/Hologram.png,256,256
+FeastCardSprite,乐欲盛宴,Feast of Desire,BepInEx/plugins/DevaClan/textures/card_art/Feast.png,256,256
+AnointCardSprite,醍醐灌顶,Anointment,BepInEx/plugins/DevaClan/textures/card_art/Anoint.png,256,256
+DevaSpikeCardSprite,天人道钉,Deva Spike,BepInEx/plugins/DevaClan/textures/card_art/DevaSpike.png,256,256
+BookOfRebirthCardSprite,往生者之书,Book of Rebirth,BepInEx/plugins/DevaClan/textures/card_art/BookOfRebirth.png,256,256
+HeavenlyWrathCardSprite,天谴,Heavenly Wrath,BepInEx/plugins/DevaClan/textures/card_art/HeavenlyWrath.png,256,256
+PurifyCardSprite,清净,Purify,BepInEx/plugins/DevaClan/textures/card_art/Purify.png,256,256
+SixRealmsCardSprite,六道轮回,Six Realms,BepInEx/plugins/DevaClan/textures/card_art/SixRealms.png,256,256
+AsuraArenaCardSprite,修罗场,Asura Arena,BepInEx/plugins/DevaClan/textures/card_art/AsuraArena.png,256,256
+MeditationChamberCardSprite,禅修舱室,Meditation Chamber,BepInEx/plugins/DevaClan/textures/card_art/MeditationChamber.png,256,256
+AccelerationMatrixCardSprite,加速矩阵,Acceleration Matrix,BepInEx/plugins/DevaClan/textures/card_art/AccelerationMatrix.png,256,256
+ChargedSpearCardSprite,充能长矛,Charged Spear,BepInEx/plugins/DevaClan/textures/card_art/ChargedSpear.png,256,256
+SoulBackupCardSprite,灵魂备份,Soul Backup,BepInEx/plugins/DevaClan/textures/card_art/SoulBackup.png,256,256
+AsuraDriveCardSprite,修罗驱动器,Asura Drive,BepInEx/plugins/DevaClan/textures/card_art/AsuraDrive.png,256,256
+ConstructBlueprintIcon,造物蓝图,Construct Blueprint,BepInEx/plugins/DevaClan/textures/relic_art/ConstructBlueprintIcon.png,256,256
+ConstructBlueprintSmallIcon,造物蓝图,Construct Blueprint,BepInEx/plugins/DevaClan/textures/relic_art/ConstructBlueprintSmallIcon.png,96,96
+KarmicIncenseIcon,业火焚香,Karmic Incense,BepInEx/plugins/DevaClan/textures/relic_art/KarmicIncenseIcon.png,256,256
+KarmicIncenseSmallIcon,业火焚香,Karmic Incense,BepInEx/plugins/DevaClan/textures/relic_art/KarmicIncenseSmallIcon.png,96,96
+ChargeRecyclerIcon,充能回收器,Charge Recycler,BepInEx/plugins/DevaClan/textures/relic_art/ChargeRecyclerIcon.png,256,256
+ChargeRecyclerSmallIcon,充能回收器,Charge Recycler,BepInEx/plugins/DevaClan/textures/relic_art/ChargeRecyclerSmallIcon.png,96,96
+ReserveEnergyIcon,备用能源,Reserve Energy,BepInEx/plugins/DevaClan/textures/relic_art/ReserveEnergyIcon.png,256,256
+ReserveEnergySmallIcon,备用能源,Reserve Energy,BepInEx/plugins/DevaClan/textures/relic_art/ReserveEnergySmallIcon.png,96,96
+SingingBowlIcon,共鸣颂钵,Resonant Singing Bowl,BepInEx/plugins/DevaClan/textures/relic_art/SingingBowlIcon.png,256,256
+SingingBowlSmallIcon,共鸣颂钵,Resonant Singing Bowl,BepInEx/plugins/DevaClan/textures/relic_art/SingingBowlSmallIcon.png,96,96
+PrayerWheelIcon,全息转经筒,Holographic Prayer Wheel,BepInEx/plugins/DevaClan/textures/relic_art/PrayerWheelIcon.png,256,256
+PrayerWheelSmallIcon,全息转经筒,Holographic Prayer Wheel,BepInEx/plugins/DevaClan/textures/relic_art/PrayerWheelSmallIcon.png,96,96
+PrajnaShieldIcon,波若护盾,Prajna Shield,BepInEx/plugins/DevaClan/textures/relic_art/PrajnaShieldIcon.png,256,256
+PrajnaShieldSmallIcon,波若护盾,Prajna Shield,BepInEx/plugins/DevaClan/textures/relic_art/PrajnaShieldSmallIcon.png,96,96
+SyncMatrixIcon,同步矩阵,Synchronization Matrix,BepInEx/plugins/DevaClan/textures/relic_art/SyncMatrixIcon.png,256,256
+SyncMatrixSmallIcon,同步矩阵,Synchronization Matrix,BepInEx/plugins/DevaClan/textures/relic_art/SyncMatrixSmallIcon.png,96,96
+InsightCircuitIcon,顿悟回路,Insight Circuit,BepInEx/plugins/DevaClan/textures/relic_art/InsightCircuitIcon.png,256,256
+InsightCircuitSmallIcon,顿悟回路,Insight Circuit,BepInEx/plugins/DevaClan/textures/relic_art/InsightCircuitSmallIcon.png,96,96
+AsuraMarkIcon,修罗印记,Asura Mark,BepInEx/plugins/DevaClan/textures/relic_art/AsuraMarkIcon.png,256,256
+AsuraMarkSmallIcon,修罗印记,Asura Mark,BepInEx/plugins/DevaClan/textures/relic_art/AsuraMarkSmallIcon.png,96,96
+MaraIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/MaraIcon.png,320,256
+MaraLockedIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/MaraLockedIcon.png,320,256
+MaraPortrait,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/MaraPortrait.png,240,270
+NayutaIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/NayutaIcon.png,320,256
+NayutaLockedIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/NayutaLockedIcon.png,320,256
+NayutaPortrait,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/NayutaPortrait.png,240,270
+BasicClanSmallIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/BasicClanSmallIcon.png,48,48
+BasicClanMediumIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/BasicClanMediumIcon.png,128,128
+BasicClanLargeIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/BasicClanLargeIcon.png,92,92
+BasicClanSilhouetteIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/BasicClanSilhouetteIcon.png,72,72
+CardDraftIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/BasicClanCardDraft.png,71,84
+TemporaryIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/TemporaryIcon.png,48,48
+AsuraArenaIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/AsuraArenaIcon.png,112,112
+MeditationChamberIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/MeditationChamberIcon.png,112,112
+AccelerationMatrixIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/AccelerationMatrixIcon.png,112,112
+ChargedSpearIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/ChargedSpearIcon.png,128,128
+SoulBackupIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/SoulBackupIcon.png,128,128
+AsuraDriveIcon,氏族/界面素材,Clan / UI asset,BepInEx/plugins/DevaClan/textures/icons/AsuraDriveIcon.png,128,128

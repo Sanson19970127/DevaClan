@@ -1,0 +1,18 @@
+{
+  "replacement_texts": [
+    {
+      "key": "Charge",
+      "texts": {
+        "english": "<b>Charge</b>",
+        "chinese": "<b>充能</b>"
+      }
+    },
+    {
+      "key": "Reset",
+      "texts": {
+        "english": "<b>Reset</b>",
+        "chinese": "<b>重置</b>"
+      }
+    }
+  ]
+}

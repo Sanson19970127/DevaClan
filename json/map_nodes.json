@@ -1,0 +1,34 @@
+{
+  "map_nodes": [
+    {
+      "id": "RewardNodeUnitPackBasicClan",
+      "type": "reward",
+      "map_icon": "@BasicBannerMapIcon",
+      "minimap_icon": "@ClanBannerMinimapIcon",
+      "prefab": "@BasicClanMapIcon",
+      "titles": {
+        "english": "Deva Banner",
+        "chinese": "天人战旗"
+      },
+      "descriptions": {
+        "english": "Gain a Deva unit.",
+        "chinese": "获得一个天人氏族单位。"
+      },
+      "pools": [
+        "RandomChosenMainClassUnit",
+        "RandomChosenSubClassUnit"
+      ],
+      "is_banner_node": true,
+      "extensions": [
+        {
+          "reward": {
+            "class": "@ClassDeva",
+            "rewards": [
+              "@BasicBannerReward"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

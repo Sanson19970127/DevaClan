@@ -1,0 +1,11 @@
+{
+  "class_card_styles": [
+    {
+      "id": "BasicClanCardStyle",
+      "equipment_card_frame_sprite": "@BasicClanEquipmentRoomBorder",
+      "unit_card_frame_sprite": "@BasicClanUnitBorder",
+      "room_card_frame_sprite": "@BasicClanEquipmentRoomBorder",
+      "spell_card_frame_sprite": "@BasicClanSpellBorder"
+    }
+  ]
+}

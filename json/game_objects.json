@@ -1,0 +1,922 @@
+{
+  "game_objects": [
+    {
+      "id": "BasicClanMapIcon",
+      "type": "map_node_icon",
+      "extensions": {
+        "map_node_icon": {
+          "disabled_sprite": "@BasicBannerDisabledMapIcon",
+          "enabled_sprite": "@BasicBannerEnabledMapIcon",
+          "frozen_sprite": "@BasicBannerFrozenMapIcon",
+          "visited_sprite_disabled": "@BasicBannerVisitedDisabledIcon"
+        }
+      }
+    },
+    {
+      "id": "MantraCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@MantraCardSprite"
+        }
+      }
+    },
+    {
+      "id": "NayutaConstructCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@NayutaConstructCardSprite"
+        }
+      }
+    },
+    {
+      "id": "NayutaConstructUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@NayutaConstructUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "AsuraSwordsmanCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AsuraSwordsmanCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AsuraSwordsmanUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@AsuraSwordsmanUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "GuardConstructCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@GuardConstructCardSprite"
+        }
+      }
+    },
+    {
+      "id": "GuardConstructUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@GuardConstructUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ChantTechnicianCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ChantTechnicianCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ChantTechnicianUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@ChantTechnicianUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "MechSpiderCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@MechSpiderCardSprite"
+        }
+      }
+    },
+    {
+      "id": "MechSpiderUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@MechSpiderUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ResonanceConstructCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ResonanceConstructCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ResonanceConstructUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@ResonanceConstructUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "RitualTechnicianCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@RitualTechnicianCardSprite"
+        }
+      }
+    },
+    {
+      "id": "RitualTechnicianUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@RitualTechnicianUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "IdatenCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@IdatenCardSprite"
+        }
+      }
+    },
+    {
+      "id": "IdatenUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@IdatenUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "VajraCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@VajraCardSprite"
+        }
+      }
+    },
+    {
+      "id": "VajraUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@VajraUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "SirenCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@SirenCardSprite"
+        }
+      }
+    },
+    {
+      "id": "SirenUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@SirenUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ChargeGunnerCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ChargeGunnerCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ChargeGunnerUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@ChargeGunnerUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "EmberConverterCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@EmberConverterCardSprite"
+        }
+      }
+    },
+    {
+      "id": "EmberConverterUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@EmberConverterUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "AttackConstructCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AttackConstructCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AttackConstructUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@AttackConstructUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "SinnerCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@SinnerCardSprite"
+        }
+      }
+    },
+    {
+      "id": "SinnerUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@SinnerUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Perfect1CardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@Perfect1CardSprite"
+        }
+      }
+    },
+    {
+      "id": "Perfect1UnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@Perfect1UnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Perfect2CardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@Perfect2CardSprite"
+        }
+      }
+    },
+    {
+      "id": "Perfect2UnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@Perfect2UnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Perfect3CardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@Perfect3CardSprite"
+        }
+      }
+    },
+    {
+      "id": "Perfect3UnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@Perfect3UnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "GiantCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@GiantCardSprite"
+        }
+      }
+    },
+    {
+      "id": "GiantUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@GiantUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "FirewallCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@FirewallCardSprite"
+        }
+      }
+    },
+    {
+      "id": "FirewallUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@FirewallUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "MaraCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@MaraCardSprite"
+        }
+      }
+    },
+    {
+      "id": "MaraUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@MaraUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "NayutaCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@NayutaCardSprite"
+        }
+      }
+    },
+    {
+      "id": "NayutaUnitArt",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@NayutaUnitSprite",
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 1,
+              "z": 0
+            },
+            "scale": {
+              "x": 0.8,
+              "y": 0.8,
+              "z": 0.8
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "FormatCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@FormatCardSprite"
+        }
+      }
+    },
+    {
+      "id": "CreationCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@CreationCardSprite"
+        }
+      }
+    },
+    {
+      "id": "RestartCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@RestartCardSprite"
+        }
+      }
+    },
+    {
+      "id": "NectarCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@NectarCardSprite"
+        }
+      }
+    },
+    {
+      "id": "IsolationCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@IsolationCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ExorciseCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ExorciseCardSprite"
+        }
+      }
+    },
+    {
+      "id": "LiberationCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@LiberationCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AsceticismCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AsceticismCardSprite"
+        }
+      }
+    },
+    {
+      "id": "NirvanaCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@NirvanaCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ProtectCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ProtectCardSprite"
+        }
+      }
+    },
+    {
+      "id": "SamadhiCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@SamadhiCardSprite"
+        }
+      }
+    },
+    {
+      "id": "HologramCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@HologramCardSprite"
+        }
+      }
+    },
+    {
+      "id": "FeastCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@FeastCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AnointCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AnointCardSprite"
+        }
+      }
+    },
+    {
+      "id": "DevaSpikeCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@DevaSpikeCardSprite"
+        }
+      }
+    },
+    {
+      "id": "BookOfRebirthCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@BookOfRebirthCardSprite"
+        }
+      }
+    },
+    {
+      "id": "HeavenlyWrathCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@HeavenlyWrathCardSprite"
+        }
+      }
+    },
+    {
+      "id": "PurifyCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@PurifyCardSprite"
+        }
+      }
+    },
+    {
+      "id": "SixRealmsCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@SixRealmsCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AsuraArenaCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AsuraArenaCardSprite"
+        }
+      }
+    },
+    {
+      "id": "MeditationChamberCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@MeditationChamberCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AccelerationMatrixCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AccelerationMatrixCardSprite"
+        }
+      }
+    },
+    {
+      "id": "ChargedSpearCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@ChargedSpearCardSprite"
+        }
+      }
+    },
+    {
+      "id": "SoulBackupCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@SoulBackupCardSprite"
+        }
+      }
+    },
+    {
+      "id": "AsuraDriveCardArt",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "sprite": "@AsuraDriveCardSprite"
+        }
+      }
+    },
+    {
+      "id": "MaraDisplay",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@MaraUnitSprite",
+          "transform": {
+            "position": {
+              "x": 2,
+              "y": 1.4,
+              "z": 0
+            },
+            "scale": {
+              "x": 2.25,
+              "y": 2.25,
+              "z": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "NayutaDisplay",
+      "type": "character_art",
+      "extensions": {
+        "character_art": {
+          "sprite": "@NayutaUnitSprite",
+          "transform": {
+            "position": {
+              "x": 2,
+              "y": 1.4,
+              "z": 0
+            },
+            "scale": {
+              "x": 2.25,
+              "y": 2.25,
+              "z": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "room_modifiers": [
+    {
+      "id": "MeditationCapacity",
+      "name": "RoomStateCapacityModifier",
+      "param_int": 2
+    },
+    {
+      "id": "AccelerationSpawn",
+      "name": "RoomStateStatusEffectOnSpawnModifier",
+      "param_status_effects": [
+        {
+          "status": "ambush",
+          "count": 1
+        },
+        {
+          "status": "@karmergy",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

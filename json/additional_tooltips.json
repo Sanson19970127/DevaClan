@@ -1,0 +1,37 @@
+{
+  "additional_tooltips": [
+    {
+      "id": "ChargeTip",
+      "titles": {
+        "english": "Charge",
+        "chinese": "充能"
+      },
+      "descriptions": {
+        "english": "Stored for this battle. To activate a cooling unit ability, spend [sanson.DevaClan_Charge] equal to its remaining cooldown.",
+        "chinese": "在本场战斗中储存。激活冷却中的单位主动能力时，消耗等于剩余冷却回合数的[sanson.DevaClan_Charge]。[sanson.DevaClan_Charge]不足时无法激活。"
+      }
+    },
+    {
+      "id": "ResetTip",
+      "titles": {
+        "english": "Reset",
+        "chinese": "重置"
+      },
+      "descriptions": {
+        "english": "Kill a friendly unit and resummon it in its position. Triggers death and summon effects. Removes temporary buffs and debuffs, except [sanson.DevaClan_karmergy].",
+        "chinese": "消灭一个友方角色，再在原位置召唤它。触发死亡与召唤效果，清除临时增益与减益，但保留[sanson.DevaClan_karmergy]。"
+      }
+    },
+    {
+      "id": "ConstructTip",
+      "titles": {
+        "english": "Construct",
+        "chinese": "造物"
+      },
+      "descriptions": {
+        "english": "An artificial lifeform created by the Deva.",
+        "chinese": "天人创造的机械生命体亚种族。"
+      }
+    }
+  ]
+}

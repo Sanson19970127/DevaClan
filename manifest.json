@@ -1,0 +1,11 @@
+{
+  "name": "DevaClan",
+  "version_number": "0.2.9",
+  "website_url": "",
+  "description": "Deva Clan by sanson. Chinese/English. Bugfix candidate for charge-paid unit/building abilities, converter targeting, undo UI/memory, blueprint recall, Mara retention and Asura Arena. In-game verification pending.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "MT2-Trainworks_Reloaded-0.7.20",
+    "Conductor-Conductor-0.5.10"
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "relics": [
+    {
+      "id": "ConstructBlueprint",
+      "type": "collectable",
+      "names": {
+        "english": "Construct Blueprint",
+        "chinese": "造物蓝图"
+      },
+      "descriptions": {
+        "english": "At the start of each turn, add a random Ephemeral Construct to your hand.",
+        "chinese": "每回合开始时，将一张具有短暂的随机造物置入手牌。"
+      },
+      "icon": "@ConstructBlueprintIcon",
+      "icon_small": "@ConstructBlueprintSmallIcon",
+      "relic_effects": [
+        "@BlueprintEffect"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Scrolls bearing schematics for all manner of constructs, used by apprentice technicians to hone their craft.",
+          "chinese": "绘有各类造物设计图的蓝图卷轴，供新手技师们练习造物技术之用"
+        }
+      ]
+    },
+    {
+      "id": "KarmicIncense",
+      "type": "collectable",
+      "names": {
+        "english": "Karmic Incense",
+        "chinese": "业火焚香"
+      },
+      "descriptions": {
+        "english": "Each stack of [sanson.DevaClan_karmergy] grants an additional +5 attack.",
+        "chinese": "每层[sanson.DevaClan_karmergy]额外+5攻击力。"
+      },
+      "icon": "@KarmicIncenseIcon",
+      "icon_small": "@KarmicIncenseSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Mysterious incense of unknown composition. It heightens the senses of those who breathe it in, amplifying pleasure.",
+          "chinese": "成分不明的神秘香料，能增强吸入者的感官能力，使得快感更加强烈"
+        }
+      ]
+    },
+    {
+      "id": "ChargeRecycler",
+      "type": "collectable",
+      "names": {
+        "english": "Charge Recycler",
+        "chinese": "充能回收器"
+      },
+      "descriptions": {
+        "english": "When a friendly Construct dies, gain 1 [sanson.DevaClan_Charge].",
+        "chinese": "友方造物死亡后，获得1点[sanson.DevaClan_Charge]。"
+      },
+      "icon": "@ChargeRecyclerIcon",
+      "icon_small": "@ChargeRecyclerSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Modified energy storage units built to reclaim every last scrap of power from discarded constructs.",
+          "chinese": "经过改装的蓄能装置，用于从废弃的造物身上回收最后一点能量"
+        }
+      ]
+    },
+    {
+      "id": "ReserveEnergy",
+      "type": "collectable",
+      "names": {
+        "english": "Reserve Energy",
+        "chinese": "备用能源"
+      },
+      "descriptions": {
+        "english": "Start each battle with 5 [sanson.DevaClan_Charge].",
+        "chinese": "每场战斗开始时，获得5点[sanson.DevaClan_Charge]。"
+      },
+      "icon": "@ReserveEnergyIcon",
+      "icon_small": "@ReserveEnergySmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Deva technicians store harvested construct energy as emergency backup power.",
+          "chinese": "天人技师们会将从造物中回收的能量储存起来，以备不时之需"
+        }
+      ]
+    },
+    {
+      "id": "SingingBowl",
+      "type": "collectable",
+      "names": {
+        "english": "Resonant Singing Bowl",
+        "chinese": "共鸣颂钵"
+      },
+      "descriptions": {
+        "english": "After a friendly unit uses an ability, it gains +3/+3.",
+        "chinese": "一个友方角色使用主动能力后，使其获得+3/+3。"
+      },
+      "icon": "@SingingBowlIcon",
+      "icon_small": "@SingingBowlSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "This ceremonial bowl resonates with specific brainwaves, producing soothing, melodic tones.",
+          "chinese": "这个钵盂能与特殊的脑波产生共鸣，发出能令人平静下来的美妙声音"
+        }
+      ]
+    },
+    {
+      "id": "PrayerWheel",
+      "type": "collectable",
+      "names": {
+        "english": "Holographic Prayer Wheel",
+        "chinese": "全息转经筒"
+      },
+      "descriptions": {
+        "english": "After every 3 friendly unit abilities activated, draw 1 card.",
+        "chinese": "友方单位每使用3次主动能力，抽1张牌。"
+      },
+      "icon": "@PrayerWheelIcon",
+      "icon_small": "@PrayerWheelSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "A prayer-wheel device capable of storing massive volumes of information. Deva use it for rapid complex data processing.",
+          "chinese": "能储存大量信息的转经筒，天人用它来快速处理复杂的数据"
+        }
+      ]
+    },
+    {
+      "id": "PrajnaShield",
+      "type": "collectable",
+      "names": {
+        "english": "Prajna Shield",
+        "chinese": "波若护盾"
+      },
+      "descriptions": {
+        "english": "After a friendly Construct is [sanson.DevaClan_Reset], grant it Damage Shield 1.",
+        "chinese": "友方造物被[sanson.DevaClan_Reset]后，获得伤害护盾1。"
+      },
+      "icon": "@PrajnaShieldIcon",
+      "icon_small": "@PrajnaShieldSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "A dedicated protective module engineered by Nayuta for constructs, shielding them from harm during reset procedures.",
+          "chinese": "那由多为造物开发了一种专用的保护模块，能防止造物在重置过程中受到伤害"
+        }
+      ]
+    },
+    {
+      "id": "SyncMatrix",
+      "type": "collectable",
+      "names": {
+        "english": "Synchronization Matrix",
+        "chinese": "同步矩阵"
+      },
+      "descriptions": {
+        "english": "Evoke triggers an additional time.",
+        "chinese": "营造额外生效一次。"
+      },
+      "icon": "@SyncMatrixIcon",
+      "icon_small": "@SyncMatrixSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "A portable battlefield server that drastically improves coordination between allied units.",
+          "chinese": "一台战场上使用的便捷式服务器，能大幅提升友军单位之间的协作效率"
+        }
+      ]
+    },
+    {
+      "id": "InsightCircuit",
+      "type": "collectable",
+      "names": {
+        "english": "Insight Circuit",
+        "chinese": "顿悟回路"
+      },
+      "descriptions": {
+        "english": "Friendly unit abilities have a 25% chance to finish their cooldown immediately after use.",
+        "chinese": "友方单位主动能力使用后有25%几率立刻结束冷却。"
+      },
+      "icon": "@InsightCircuitIcon",
+      "icon_small": "@InsightCircuitSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Some Deva implant this chip within their brain, transmuting fleeting flashes of insight into readily‑usable power.",
+          "chinese": "有些天人会在大脑里植入这种芯片，将偶然获得的灵感转化为易于使用的力量"
+        }
+      ]
+    },
+    {
+      "id": "AsuraMark",
+      "type": "collectable",
+      "names": {
+        "english": "Asura Mark",
+        "chinese": "修罗印记"
+      },
+      "descriptions": {
+        "english": "When Relentless begins on a floor, friendly units there gain [sanson.DevaClan_karmergy] 2.",
+        "chinese": "一层进入不懈战时，该层友方角色获得[sanson.DevaClan_karmergy]2。"
+      },
+      "icon": "@AsuraMarkIcon",
+      "icon_small": "@AsuraMarkSmallIcon",
+      "relic_effects": [
+        "@Marker"
+      ],
+      "extensions": [
+        {
+          "collectable": {
+            "class": "@ClassDeva",
+            "pools": [
+              "MegaRelicPool"
+            ],
+            "rarity": "uncommon"
+          }
+        }
+      ],
+      "lore_tooltips": [
+        {
+          "english": "Seals bestowed by Mara Podian upon his Asura warriors. Merely gazing upon them stirs deep-seated bloodlust for battle.",
+          "chinese": "魔罗波甸赐予修罗战士们的印章，只要凝视它就会激起内心深处的战斗欲望"
+        }
+      ]
+    }
+  ]
+}

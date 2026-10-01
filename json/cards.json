@@ -1,0 +1,1827 @@
+{
+  "cards": [
+    {
+      "id": "Mantra",
+      "names": {
+        "english": "Mantra",
+        "chinese": "真言"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@MantraCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@MantraEffect"
+      ],
+      "pools": [
+        "StarterCardsOnly"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Mara Podian is a master of energy manipulation. With but a single utterance, he can draw limitless energy from the void and store it within thought-formed incantations for later use.",
+          "chinese": "魔罗波甸是操纵能量的大师。仅凭一句话语，他就能从虚空中提取无穷无尽的能量，并将其储存在由思想构成的咒文中以供使用。"
+        }
+      ]
+    },
+    {
+      "id": "Activate",
+      "names": {
+        "english": "Activate",
+        "chinese": "启动"
+      },
+      "descriptions": {
+        "english": "Attack immediately.",
+        "chinese": "立刻攻击。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@ActivateEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "NayutaConstruct",
+      "names": {
+        "english": "Nayuta's Construct",
+        "chinese": "那由多的造物"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@NayutaConstructCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@NayutaConstructSpawn"
+      ],
+      "pools": [
+        "StarterCardsOnly"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Small-scale constructs built by Nayuta herself in imitation of Deva technology. Crude and primitive in craftsmanship, yet brimming with a unique vitality.",
+          "chinese": "那由多模仿天人技术自行制作的小型造物，做工粗糙而原始，却展现出一种独特的生命力。"
+        }
+      ]
+    },
+    {
+      "id": "AsuraSlash",
+      "names": {
+        "english": "Asura Slash",
+        "chinese": "修罗斩击"
+      },
+      "descriptions": {
+        "english": "Attack immediately.",
+        "chinese": "立刻攻击。"
+      },
+      "is_an_ability": true,
+      "cooldown": 2,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@AsuraSlashEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "AsuraSwordsman",
+      "names": {
+        "english": "Asura Swordsman",
+        "chinese": "修罗剑豪"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@AsuraSwordsmanCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@AsuraSwordsmanSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Gifted Deva are selected to learn exclusive martial arts from Mara Podian and undergo augmentations to boost combat power. They serve as Podian’s personal troops on the battlefield.",
+          "chinese": "一些有天赋的天人被选中，向魔罗波甸学习特殊的武技并接受额外改造以提升战斗力。最后作为波甸的亲兵用于作战。"
+        }
+      ]
+    },
+    {
+      "id": "GuardConstruct",
+      "names": {
+        "english": "Guard Construct",
+        "chinese": "守卫造物"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@GuardConstructCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@GuardConstructSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Specialized constructs engineered for coordinated battlefield defence. Their force‑field shields absorb incoming damage while siphoning energy from enemy strikes.",
+          "chinese": "为了在战场上协同防御而研发的特化造物，其装备的力场护盾能在吸收伤害的同时回收对手攻击中的能量。"
+        }
+      ]
+    },
+    {
+      "id": "Chant",
+      "names": {
+        "english": "Chant",
+        "chinese": "诵经"
+      },
+      "descriptions": {
+        "english": "Give another friendly character [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "令一个其他友方角色获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@ChantEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "ChantTechnician",
+      "names": {
+        "english": "Chant Technician",
+        "chinese": "诵经技师"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@ChantTechnicianCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@ChantTechnicianSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Devotees under Mara who normally perform clerical duties. Under extraordinary circumstances, they are permitted onto the battlefield to empower allies through chants.",
+          "chinese": "魔罗波甸手下从事文职工作的信徒。由于情势特殊，他们被允许登上战场，用诵经的力量为友军助力。"
+        }
+      ]
+    },
+    {
+      "id": "SilkPull",
+      "names": {
+        "english": "Silk Pull",
+        "chinese": "蛛丝牵引"
+      },
+      "descriptions": {
+        "english": "Move another unit from a different floor to this floor.",
+        "chinese": "将另一层的一个角色移动到本层。"
+      },
+      "is_an_ability": true,
+      "cooldown": 2,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@SilkPullEffect"
+      ],
+      "can_ability_target_other_floors": true
+    },
+    {
+      "id": "MechSpider",
+      "names": {
+        "english": "Mech Spider",
+        "chinese": "机械蜘蛛"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@MechSpiderCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@MechSpiderSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Spiders symbolize redemption in Deva culture. Deva guilty of grave crimes are forcibly remade into spider-like forms to atone through public service for others.",
+          "chinese": "蜘蛛在天人文化中象征着救赎。因此一些犯下重罪的天人会被强制改造为类似蜘蛛的形态，通过为其他人提供公益服务来赎罪。"
+        }
+      ]
+    },
+    {
+      "id": "ResonanceConstruct",
+      "names": {
+        "english": "Resonance Construct",
+        "chinese": "共鸣造物"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@ResonanceConstructCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@ResonanceConstructSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "These constructs were originally built solely for temporary energy storage and transmission. Once the Deva uncovered their secondary function, they quickly became formidable battlefield assets.",
+          "chinese": "这种造物原本仅用于临时储存和传输能量。但在天人发现了它的另一种用途之后，它马上成为了战场上的又一利器。"
+        }
+      ]
+    },
+    {
+      "id": "Rite",
+      "names": {
+        "english": "Last Rites",
+        "chinese": "超度"
+      },
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a friendly unit other than a Ritual Technician.",
+        "chinese": "[sanson.DevaClan_Reset]一个不是超度技师的友方角色。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@RiteEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "RitualTechnician",
+      "names": {
+        "english": "Ritual Technician",
+        "chinese": "超度技师"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@RitualTechnicianCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@RitualTechnicianSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Elite among clerical devotees. Enhanced through rigorous education and bodily modification, they master disciplines ranging from construct engineering to spiritual cultivation. They hold the authority to perform resets upon others on the battlefield.",
+          "chinese": "文职信徒中的佼佼者。他们受过复杂的高等教育与改造，精通从研发造物到修养身心的各种知识。并拥有在战场上对他人实行重置的权利。"
+        }
+      ]
+    },
+    {
+      "id": "IdatenSpeed",
+      "names": {
+        "english": "Idaten's Speed",
+        "chinese": "韦驮天之速"
+      },
+      "descriptions": {
+        "english": "Attack immediately, then return this unit to your hand.",
+        "chinese": "立刻攻击，然后将本单位移回手牌。"
+      },
+      "is_an_ability": true,
+      "cooldown": 3,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@IdatenSpeedEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Idaten",
+      "names": {
+        "english": "Idaten Construct",
+        "chinese": "韦驮天造物"
+      },
+      "cost": 1,
+      "rarity": "rare",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@IdatenCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@IdatenSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Early experimental creations of Mara. Extreme lightweight design grants them unparalleled speed. Podian later sealed them away forever, deeming them nothing more than useless toys.",
+          "chinese": "魔罗波甸早年的实验性作品。通过极致的轻量化设计，使其的速度达到了前所未有的地步。但在那之后就被波甸当做无用的玩具永久封存。"
+        }
+      ]
+    },
+    {
+      "id": "VajraGlare",
+      "names": {
+        "english": "Vajra Glare",
+        "chinese": "金刚怒目"
+      },
+      "descriptions": {
+        "english": "Deal damage equal to this unit's attack to all enemies on this floor.",
+        "chinese": "对本层所有敌人造成等于本单位攻击力的伤害。"
+      },
+      "is_an_ability": true,
+      "cooldown": 5,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@VajraGlareEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Vajra",
+      "names": {
+        "english": "Vajra Construct",
+        "chinese": "造物金刚"
+      },
+      "cost": 4,
+      "rarity": "rare",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@VajraCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@VajraSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Mara once sought to build an ultimate weapon of godlike power, capable of obliterating an entire civilization in one strike. Before its completion, he realized such a creation served no purpose. Development was halted, leaving only an unfinished prototype.",
+          "chinese": "魔罗波甸曾经想制造一种拥有至高威力的终极兵器，一击便可以毁灭一个文明。但没等这种兵器被制造出来，他就意识到这种做法毫无必要。于是他便停止了开发，只留下了未完成的原型机。"
+        }
+      ]
+    },
+    {
+      "id": "SirenSong",
+      "names": {
+        "english": "Siren Song",
+        "chinese": "靡靡之音"
+      },
+      "descriptions": {
+        "english": "Apply Dazed [effect0.status0.power] and Rooted [effect0.status1.power] to an enemy.",
+        "chinese": "令一个敌人眩晕[effect0.status0.power]、缠绕[effect0.status1.power]。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@SirenSongEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Siren",
+      "names": {
+        "english": "Melodic Siren",
+        "chinese": "妙音歌姬"
+      },
+      "cost": 2,
+      "rarity": "rare",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@SirenCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@SirenSpawn"
+      ],
+      "pools": [
+        "UnitsAllBanner",
+        "@DevaBannerPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "For pleasure-obsessed Deva, music is an indispensable part of life. Idol divas enjoy immense popularity, and are even allowed to perform on battlefields to confound foes with song.",
+          "chinese": "对热衷享受的天人们而言，音乐是生活中必不可少的一部分。因此偶像歌姬这一职业在天人之间极受欢迎，甚至被允许在战场上表演，用歌声来牵制敌人。"
+        }
+      ]
+    },
+    {
+      "id": "ChargeShot",
+      "names": {
+        "english": "Charge Shot",
+        "chinese": "充能射击"
+      },
+      "descriptions": {
+        "english": "Attack a chosen enemy on this floor.",
+        "chinese": "立刻攻击本层一个指定敌人。"
+      },
+      "is_an_ability": true,
+      "cooldown": 2,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@ChargeShotEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "ChargeGunner",
+      "names": {
+        "english": "Charge Gunner",
+        "chinese": "充能枪手"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@ChargeGunnerCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@ChargeGunnerSpawn"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Deva armed with charge sniper rifles who provide cover fire from the rear lines. Popular among certain Deva factions for its lack of close-quarters combat.",
+          "chinese": "装备了充能狙击枪，能在战场后方掩护友军的天人。由于这个职位在战场上不需要近身搏斗，因而受到了某些天人群体的欢迎。"
+        }
+      ]
+    },
+    {
+      "id": "Convert",
+      "names": {
+        "english": "Kinetic Conversion",
+        "chinese": "动能转换"
+      },
+      "descriptions": {
+        "english": "Gain [effect0.power] Ember.",
+        "chinese": "获得[effect0.power]点余烬。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@ConvertEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "EmberConverter",
+      "names": {
+        "english": "Ember Converter",
+        "chinese": "薪火转换器"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@EmberConverterCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@EmberConverterSpawn"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "A new class of construct invented by Deva from their research on the Train. It channels harvested Deva energy into the Pyre, converting it into motive power for embers.",
+          "chinese": "通过对火车的研究，天人们发明了适合这个世界的新型造物。它能将天人收集到的能量注入薪火之中，转化为余烬的动力。"
+        }
+      ]
+    },
+    {
+      "id": "Focus",
+      "names": {
+        "english": "Focus",
+        "chinese": "聚能"
+      },
+      "descriptions": {
+        "english": "Gain +[effect0.power] attack.",
+        "chinese": "获得+[effect0.power]攻击力。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@FocusEffect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "AttackConstruct",
+      "names": {
+        "english": "Attack Construct",
+        "chinese": "攻击造物"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@AttackConstructCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@AttackConstructSpawn"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Mass-produced frontline soldier constructs. Cheap to manufacture, they autonomously harvest stray battlefield energy to amplify their offensive prowess.",
+          "chinese": "作为基础士兵制造的量产型造物，在制造成本低廉的同时，还能自主收集战场上逸散的能量来提高自身的进攻能力。"
+        }
+      ]
+    },
+    {
+      "id": "Sinner",
+      "names": {
+        "english": "Indulgent Sinner",
+        "chinese": "沉湎罪人"
+      },
+      "cost": 1,
+      "rarity": "rare",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@SinnerCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@SinnerSpawn"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "When [sanson.DevaClan_Reset], double retained [sanson.DevaClan_karmergy] before Summon.",
+        "chinese": "[sanson.DevaClan_Reset]后，先将保留的[sanson.DevaClan_karmergy]翻倍，再触发召唤。"
+      },
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Some Deva become corrupted in their pursuit of sensory thrills, perversely savouring the agony of reset. Even among their own kind, they are seen as irredeemable aberrations shunned by all.",
+          "chinese": "一些天人在追求感官刺激的道路上走火入魔，将重置时的痛苦视作一种扭曲的快感。这种人即使在天人中也被视为不可救药的变态，无人愿意接近。"
+        }
+      ]
+    },
+    {
+      "id": "Perfect1",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "cost": 0,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@Perfect1CardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@Perfect1Spawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "descriptions": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下回合开始时被消灭。"
+      },
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Perfect2",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "cost": 0,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@Perfect2CardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@Perfect2Spawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "descriptions": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下回合开始时被消灭。"
+      },
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Perfect3",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "cost": 0,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@Perfect3CardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@Perfect3Spawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "descriptions": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下回合开始时被消灭。"
+      },
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Giant",
+      "names": {
+        "english": "Nayuta's Giant Construct",
+        "chinese": "那由多的巨大造物"
+      },
+      "cost": 0,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@GiantCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@GiantSpawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Firewall",
+      "names": {
+        "english": "Firewall Construct",
+        "chinese": "防火墙造物"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@FirewallCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@FirewallSpawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "descriptions": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下回合开始时被消灭。"
+      },
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Mara",
+      "names": {
+        "english": "Mara Podian",
+        "chinese": "“魔罗”波甸"
+      },
+      "cost": 0,
+      "rarity": "champion",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@MaraCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@MaraSpawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Mara Podian is the deity’s avatar within the simulation world, comparable to a Titan of this realm. At the world’s birth, he created Deva modelled after himself as his retinue, and is revered as leader and idol by all Deva. He has long agonized over his failure to achieve the \"Perfect Order\" he pursues, yet is powerless against the status quo. Like other Deva, he drowns his sorrows in indulgent pleasures. The opening of the Dimensional Rift brings him new hope; he joins the Train Alliance and fully backs the Deva’ campaign to wage war in Hell.",
+          "chinese": "魔罗波甸是神明在模拟世界中的化身，相当于这个世界的泰坦。他在世界诞生时创造了类似自己的天人作为眷属，因此被所有天人视为领袖与偶像。他始终苦于无法达成自己所追求的“完美秩序”，但又对现状无可奈何，因此只能和其他天人一样沉迷于享乐以消愁。次元裂隙的开启让他看到了新的希望，于是他加入了火车联盟，全力支持天人们前往地狱进行战斗。"
+        }
+      ]
+    },
+    {
+      "id": "Nayuta",
+      "names": {
+        "english": "Nayuta, Unit Zero",
+        "chinese": "“初号机”那由多"
+      },
+      "cost": 0,
+      "rarity": "champion",
+      "card_type": "monster",
+      "class": "@ClassDeva",
+      "card_art": "@NayutaCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@NayutaSpawn"
+      ],
+      "pools": [],
+      "traits": [],
+      "hide_in_logbook": false,
+      "lore_tooltips": [
+        {
+          "english": "Nayuta is the very first construct forged by Mara Podian, and also the first to awaken self-awareness. Disgusted by the decadence of the Deva, Mara placed his hopes in constructs and granted some of them extraordinary intelligence. Nayuta stands among them as the wisest, closest in nature to a Deva being. She leads the constructs to the Train World, hoping to uncover a \"Perfect Path\" belonging solely to constructs.",
+          "chinese": "那由多是魔罗波甸创造的第一个造物，也是最先觉醒自我意识的造物。魔罗波甸对天人的腐朽堕落感到不满，因此将希望寄托在了造物身上，赋予了部分造物极高程度的智能。那由多就是其中智能最高、最接近天人的存在。她带领造物来到火车世界，希望能在这里找到一条属于造物们的“完美之道”。"
+        }
+      ]
+    },
+    {
+      "id": "PerfectCreation1",
+      "names": {
+        "english": "Perfect Creation",
+        "chinese": "完美创造"
+      },
+      "descriptions": {
+        "english": "Summon a temporary 10/10 Cardless Construct directly in front of this unit (1 capacity).",
+        "chinese": "在自身身前召唤一个临时的10/10无卡牌造物（1格）。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@PerfectCreation1Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "PerfectCreation2",
+      "names": {
+        "english": "Perfect Creation",
+        "chinese": "完美创造"
+      },
+      "descriptions": {
+        "english": "Summon a temporary 20/20 Cardless Construct directly in front of this unit (1 capacity).",
+        "chinese": "在自身身前召唤一个临时的20/20无卡牌造物（1格）。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@PerfectCreation2Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "PerfectCreation3",
+      "names": {
+        "english": "Perfect Creation",
+        "chinese": "完美创造"
+      },
+      "descriptions": {
+        "english": "Summon a temporary 40/40 Cardless Construct directly in front of this unit (1 capacity).",
+        "chinese": "在自身身前召唤一个临时的40/40无卡牌造物（1格）。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@PerfectCreation3Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Improve1",
+      "names": {
+        "english": "Construct Improvement",
+        "chinese": "造物改进"
+      },
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a Giant Construct. It permanently gains +1/+1.",
+        "chinese": "[sanson.DevaClan_Reset]巨大造物，使其永久+1/+1。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@Improve1Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Improve2",
+      "names": {
+        "english": "Construct Improvement",
+        "chinese": "造物改进"
+      },
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a Giant Construct. It permanently gains +1/+2.",
+        "chinese": "[sanson.DevaClan_Reset]巨大造物，使其永久+1/+2。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@Improve2Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Improve3",
+      "names": {
+        "english": "Construct Improvement",
+        "chinese": "造物改进"
+      },
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a Giant Construct. It permanently gains +2/+2.",
+        "chinese": "[sanson.DevaClan_Reset]巨大造物，使其永久+2/+2。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": false,
+      "targets_room": true,
+      "effects": [
+        "@Improve3Effect"
+      ],
+      "can_ability_target_other_floors": false
+    },
+    {
+      "id": "Format",
+      "names": {
+        "english": "Format",
+        "chinese": "格式化"
+      },
+      "cost": 0,
+      "rarity": "common",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@FormatCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@FormatEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Sacrifice a Construct. Gain [effect0.power] [sanson.DevaClan_Charge]. Draw 1.",
+        "chinese": "牺牲一个造物。获得[effect0.power]点[sanson.DevaClan_Charge]，抽1张牌。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "When construct technology was first devised, Deva valued repair and maintenance. Today, the prevailing view holds that tearing down and rebuilding is preferable to mending damaged constructs.",
+          "chinese": "造物技术发明之初，天人们尚且还十分重视对造物的维修和保养。而现在他们却普遍认为，与其去维修造物，不如直接拆掉再重新制造。"
+        }
+      ]
+    },
+    {
+      "id": "Creation",
+      "names": {
+        "english": "Creation Art",
+        "chinese": "创造之术"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@CreationCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@CreationEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Add a random non-champion Construct to your hand, excluding starter units and summoned tokens.",
+        "chinese": "将一张随机造物置入手牌（不含英雄、初始单位及衍生物）。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Though Mara Podian has not designed new constructs in ages, the craft he pioneered spreads far and wide, a mandatory discipline for every Deva’s daily life.",
+          "chinese": "虽然魔罗波甸已经很久没有发明新的造物，但他所开创的造物技术依旧在天人中广为流传，成为每个天人日常生活中的必修课。"
+        }
+      ]
+    },
+    {
+      "id": "Restart",
+      "names": {
+        "english": "Restart",
+        "chinese": "重启"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@RestartCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@RestartEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a friendly Construct.",
+        "chinese": "[sanson.DevaClan_Reset]一个友方造物。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Mara first invented constructs after constant complaints from his Deva about the agony of reset. He sought to craft soulless beings that could undergo reset without suffering.",
+          "chinese": "魔罗波甸最初发明造物，是因为手下的天人不断抱怨重置的痛苦。因此他便想创造一种没有灵魂、可以轻松接受重置而不会感到痛苦的存在。"
+        }
+      ]
+    },
+    {
+      "id": "Nectar",
+      "names": {
+        "english": "Nectar of Desire",
+        "chinese": "乐欲甘露"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@NectarCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@NectarEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Consume"
+      ],
+      "descriptions": {
+        "english": "Apply [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "令一个角色获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "A secret elixir for Deva indulgence. A single drop grants supreme ecstasy.",
+          "chinese": "天人享乐时使用的秘药，仅仅一小滴就能让人感受到无上的欢愉。"
+        }
+      ]
+    },
+    {
+      "id": "Isolation",
+      "names": {
+        "english": "Isolation",
+        "chinese": "隔离"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@IsolationCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@IsolationEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Summon a temporary 0/60 Firewall Construct at the front (1 capacity).",
+        "chinese": "在前排召唤一个临时的0/60防火墙造物（1格）。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "To the Deva, even fully drained construct husks are never wasted. The wreckage is compacted to form portable fire barriers for repelling enemies.",
+          "chinese": "对天人而言，即使是完全失去能量的造物残骸依旧不会被浪费。他们会将这些残骸压缩在一起，制成便携式防火墙用以阻挡敌人。"
+        }
+      ]
+    },
+    {
+      "id": "Exorcise",
+      "names": {
+        "english": "Exorcise",
+        "chinese": "除魔"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@ExorciseCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@ExorciseEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Deal [effect0.power] damage.",
+        "chinese": "造成[effect0.power]点伤害。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "As part of Perfect Order, Deva prize energy reclamation and recycling. Siphoning power from fallen foes is deemed wholly righteous.",
+          "chinese": "作为完美秩序的一部分，天人极为重视对能量的回收与利用。从死去敌人身上提取能量更是一种极为正当的做法。"
+        }
+      ],
+      "triggers": [
+        "@ExorciseSlay"
+      ]
+    },
+    {
+      "id": "Liberation",
+      "names": {
+        "english": "Liberation",
+        "chinese": "解脱"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@LiberationCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@LiberationEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Sacrifice a friendly unit. Deal damage equal to its attack to all enemies on its floor.",
+        "chinese": "牺牲一个友方角色，对本层所有敌人造成等于其攻击力的伤害。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "To flee the torment of reset, some Deva extract their soul from their body beforehand. The practice is fraught with peril; the slightest misstep unleashes catastrophe.",
+          "chinese": "为了逃避重置的痛苦，一些天人会在重置前会先将自己的灵魂从身体中剥离出来。只是这样做十分危险，稍不留神就会引发更大的灾难。"
+        }
+      ]
+    },
+    {
+      "id": "Asceticism",
+      "names": {
+        "english": "Asceticism",
+        "chinese": "苦修"
+      },
+      "cost": 2,
+      "rarity": "common",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@AsceticismCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@AsceticismEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Unlike Mara Podian’s effortless mastery of energy, ordinary Deva must endure long focused meditation to gather power via chanting Mantra. Energy-harvesting efficiency is seen as a measure of one’s spiritual cultivation.",
+          "chinese": "不同于魔罗波甸对能量的掌控，普通天人想靠吟诵真言来收集能量往往需要长时间的专注冥想。收集能量的效率往往也被视为天人修炼水平的体现。"
+        }
+      ]
+    },
+    {
+      "id": "Nirvana",
+      "names": {
+        "english": "Nirvana",
+        "chinese": "涅槃"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@NirvanaCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@NirvanaEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] a friendly unit.",
+        "chinese": "[sanson.DevaClan_Reset]一个友方角色。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "The Deva reset technology reconstructs bodies down to the molecular level into perfect condition, yet inflicts unimaginable torment upon the soul. For eternally living Deva, it amounts to another form of death.",
+          "chinese": "天人们所掌握的重置技术，能从分子层面将身体重构至完美状态，但却会给灵魂带来难以想象的痛苦。对拥有永恒生命的天人来说，这相当于另一种死亡。"
+        }
+      ]
+    },
+    {
+      "id": "Protect",
+      "names": {
+        "english": "Dharma Protector",
+        "chinese": "护法"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@ProtectCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@ProtectEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "The front friendly unit attacks immediately.",
+        "chinese": "前排友方角色立刻攻击。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Mara Podian bred an army of Asura warriors to dispose of failed experimental subjects. These loyal elite guards will carry out any deed in accordance with Podian’s will.",
+          "chinese": "为了方便抹除实验中的失败品，魔罗波甸专门培养了一支修罗大军。这些亲卫士兵极为忠心，愿意为了波甸的意志去做任何事情。"
+        }
+      ]
+    },
+    {
+      "id": "Samadhi",
+      "names": {
+        "english": "Samadhi",
+        "chinese": "入定"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@SamadhiCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@SamadhiEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Apply Stasis until your next turn.",
+        "chinese": "使一个角色获得静滞，直到你的下回合。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "The body is the Bodhi tree, The mind a bright mirror stand. Polish them diligently time after time, Lest dust should settle upon them.",
+          "chinese": "身是菩提树，心是明镜台。时时勤拂拭，莫使惹尘埃。"
+        }
+      ]
+    },
+    {
+      "id": "Hologram",
+      "names": {
+        "english": "Holographic Projection",
+        "chinese": "全息投影"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@HologramCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@HologramEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Summon a copy of a friendly unit. It dies at the start of your next turn.",
+        "chinese": "召唤一个友方角色的复制，它会在你的下回合开始时被消灭。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Once, every Deva crafted by Podian was a one-of-a-kind work of art. Now he has lost both inspiration and desire to birth new Deva. At most, he conjures disposable temporary copies when pressed.",
+          "chinese": "曾经，波甸创造的每位天人都堪称独一无二的艺术品。可现如今，他已经失去了创造天人的灵感与意愿，最多只会在必要时制作一些临时的复制品应付了事。"
+        }
+      ]
+    },
+    {
+      "id": "Feast",
+      "names": {
+        "english": "Feast of Desire",
+        "chinese": "乐欲盛宴"
+      },
+      "cost": 2,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@FeastCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@FeastEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Apply [sanson.DevaClan_karmergy] [effect0.status0.power] to friendly units.",
+        "chinese": "本层所有友方角色获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Deva spend most of their free hours holding banquets and chasing pleasure. Unfortunately for them, they had boundless free time before the Dimensional Rift opened.",
+          "chinese": "天人们将大部分空闲时间都用在举办宴会寻欢作乐上。很不幸，在次元裂隙开启之前，他们有的是空闲时间。"
+        }
+      ]
+    },
+    {
+      "id": "Anoint",
+      "names": {
+        "english": "Anointment",
+        "chinese": "醍醐灌顶"
+      },
+      "cost": 3,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@AnointCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@AnointEffect",
+        "@AnointConvert"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Consume"
+      ],
+      "descriptions": {
+        "english": "Apply [sanson.DevaClan_karmergy] [effect0.status0.power], then remove all [sanson.DevaClan_karmergy]. Permanently gain +3/+3 for each stack removed.",
+        "chinese": "令一个友方角色获得[sanson.DevaClan_karmergy][effect0.status0.power]，再移除其全部[sanson.DevaClan_karmergy]。每移除1层，永久+3/+3。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Bodhi is fundamentally no tree, Nor exists any bright mirror stand. Since nothing truly comes to be, Where could dust alight and land?",
+          "chinese": "菩提本无树，明镜亦无台。本来无一物，何处惹尘埃。"
+        }
+      ]
+    },
+    {
+      "id": "DevaSpike",
+      "names": {
+        "english": "Deva Spike",
+        "chinese": "天人道钉"
+      },
+      "cost": 0,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@DevaSpikeCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@DevaSpikeEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Consume"
+      ],
+      "descriptions": {
+        "english": "Apply [sanson.DevaClan_karmergy] [effect0.status0.power]X to a friendly unit. Gain X [sanson.DevaClan_Charge].",
+        "chinese": "令一个友方角色获得[effect0.status0.power]X点[sanson.DevaClan_karmergy]，获得X点[sanson.DevaClan_Charge]。"
+      },
+      "cost_type": "x",
+      "lore_tooltips": [
+        {
+          "english": "Following established custom, after joining the Train Alliance Mara Podian forged the Deva Spike for the Deva clan. Hezarl once wished to pry it open and study its inner workings, but refrained to preserve inter-clan unity.",
+          "chinese": "遵循一直以来的惯例，魔罗波甸也在加入火车联盟后制造了属于天人氏族的道钉。赫扎尔曾经想拆开这个道钉研究一下里面的技术，但为了不破坏氏族间的团结还是忍住了。"
+        }
+      ]
+    },
+    {
+      "id": "BookOfRebirth",
+      "names": {
+        "english": "Book of Rebirth",
+        "chinese": "往生者之书"
+      },
+      "cost": 3,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@BookOfRebirthCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@BookOfRebirthEffect"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Consume"
+      ],
+      "descriptions": {
+        "english": "Return a friendly unit defeated this battle to your hand. It costs 0 and gains [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "选择本场战斗中被击败的友方角色置入手牌。本场战斗中变为0费，并获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "\"Deva fear death, yet fail to see death is an inherent part of life. True Perfect Order lies not in endless immortality, but the dynamic balance of life and death.\"— Excerpt from Nayuta’s research notes",
+          "chinese": "“天人们畏惧死亡，却不知死亡本就是生命的一部分。真正的完美秩序不是永生不死，而是生与死之间的动态平衡。”---那由多的研究笔记"
+        }
+      ]
+    },
+    {
+      "id": "HeavenlyWrath",
+      "names": {
+        "english": "Heavenly Wrath",
+        "chinese": "天谴"
+      },
+      "cost": 3,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@HeavenlyWrathCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@HeavenlyWrathEffect",
+        "@HeavenlyWrathAttack"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Consume"
+      ],
+      "descriptions": {
+        "english": "Apply Melee Weakness [effect0.status0.power] to an enemy. All friendly units on its floor attack it.",
+        "chinese": "令一个敌人获得近战易伤[effect0.status0.power]，然后本层所有友方角色攻击它。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "No Deva dares oppose Mara Podian openly, for to do so is to set oneself against all of Deva Realms.",
+          "chinese": "没有任何天人敢于与魔罗波甸公开作对，因为这样做就等于与整个天界为敌。"
+        }
+      ]
+    },
+    {
+      "id": "Purify",
+      "names": {
+        "english": "Purify",
+        "chinese": "清净"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@PurifyCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@PurifySilence",
+        "@PurifyDamage"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Apply Silence until the end of this turn and deal [effect1.power] damage to all enemies on this floor.",
+        "chinese": "在本回合对本层所有敌人施加沉默，并造成[effect1.power]点伤害。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Warning: No loud shouting, commotion or rough horseplay while others meditate. Violators shall bear all consequences.",
+          "chinese": "警告：他人冥想期间严禁在旁高声喧哗、追逐打闹。违者后果自负。"
+        }
+      ]
+    },
+    {
+      "id": "SixRealms",
+      "names": {
+        "english": "Six Realms",
+        "chinese": "六道轮回"
+      },
+      "cost": 6,
+      "rarity": "rare",
+      "card_type": "spell",
+      "class": "@ClassDeva",
+      "card_art": "@SixRealmsCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@SixDamage",
+        "@SixDamage",
+        "@SixDamage",
+        "@SixDamage",
+        "@SixDamage",
+        "@SixDamage"
+      ],
+      "pools": [
+        "MegaPool"
+      ],
+      "traits": [
+        "@Permafrost"
+      ],
+      "descriptions": {
+        "english": "Deal [effect0.power] damage to all enemies, 6 times. Costs 1 less for each ability activated while this is in hand.",
+        "chinese": "对本层所有敌人造成[effect0.power]点伤害，重复6次。在手中时，每使用一次主动能力减1费。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Over long ages, Mara created countless diverse races within his world. All were later erased as failed experiments; only records of them persist in Deva databases.",
+          "chinese": "在漫长的岁月中，魔罗波甸曾在自己的世界里创造过许多不同的种族。但这些种族后来都被视作失败的实验品加以抹除，只留下关于他们的记忆储存在天人的数据库中。"
+        }
+      ]
+    },
+    {
+      "id": "AsuraArena",
+      "names": {
+        "english": "Asura Arena",
+        "chinese": "修罗场"
+      },
+      "cost": 1,
+      "rarity": "uncommon",
+      "card_type": "room",
+      "class": "@ClassDeva",
+      "card_art": "@AsuraArenaCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@AsuraArenaAttach"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentMerchant_RoomPool",
+        "RoomAndEquipmentDraftPool",
+        "TrainRoomPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "Non-boss enemies on this floor have Relentless. Does not affect flying bosses or other bosses.",
+        "chinese": "本层敌方非首领单位获得不懈。不影响飞行首领及其他首领。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Massive coliseums built by Deva to sate their hunger for combat and amusement. Those who enter must fight without end; only the final victor may leave alive.",
+          "chinese": "天人们为了满足娱乐与战斗欲望修炼的大型竞技场。一旦进入其中，便要进行无止境地战斗，唯有最后的胜利者才能活着离开。"
+        }
+      ]
+    },
+    {
+      "id": "MeditationChamber",
+      "names": {
+        "english": "Meditation Chamber",
+        "chinese": "禅修舱室"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "room",
+      "class": "@ClassDeva",
+      "card_art": "@MeditationChamberCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@MeditationChamberAttach"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentMerchant_RoomPool",
+        "RoomAndEquipmentDraftPool",
+        "TrainRoomPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "+2 capacity. Ability: [sanson.DevaClan_Reset] all friendly units on this floor (Cooldown 3).",
+        "chinese": "本层+2格。主动能力：[sanson.DevaClan_Reset]本层所有友方角色（冷却3）。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "For efficiency, Deva gather peers slated for reset within comfortable quarters, where they embrace their next life amid meditation and prayer.",
+          "chinese": "出于效率考虑，天人们会将需要重置的同伴聚集在一起，为他们提供舒适的空间，令其在冥想与祈祷中共同迎来下一次生命。"
+        }
+      ]
+    },
+    {
+      "id": "CollectiveRites",
+      "names": {
+        "english": "Collective Rites",
+        "chinese": "集体超度"
+      },
+      "descriptions": {
+        "english": "[sanson.DevaClan_Reset] all friendly units on this floor.",
+        "chinese": "[sanson.DevaClan_Reset]本层所有友方角色。"
+      },
+      "is_an_ability": false,
+      "cooldown": 3,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@CollectiveRitesEffect"
+      ],
+      "can_ability_target_other_floors": false,
+      "is_room_ability": true
+    },
+    {
+      "id": "AccelerationMatrix",
+      "names": {
+        "english": "Acceleration Matrix",
+        "chinese": "加速矩阵"
+      },
+      "cost": 3,
+      "rarity": "rare",
+      "card_type": "room",
+      "class": "@ClassDeva",
+      "card_art": "@AccelerationMatrixCardArt",
+      "targets_room": true,
+      "targetless": true,
+      "effects": [
+        "@AccelerationMatrixAttach"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentMerchant_RoomPool",
+        "RoomAndEquipmentDraftPool",
+        "TrainRoomPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "When a friendly unit is summoned here, grant it Quick and [sanson.DevaClan_karmergy] [effect0.upgrade.roommodifier0.status1.power].",
+        "chinese": "友方角色在本层被召唤后，获得迅捷和[sanson.DevaClan_karmergy][effect0.upgrade.roommodifier0.status1.power]。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "After construct designs were pushed to their limits, Deva built these grand installations to speed construct transit. Non-Construct beings may also utilise them for travel.",
+          "chinese": "在将造物本身改进到极致之后，天人们修建了这种大型设施来提升造物运输的效率。并且造物之外的人也能使用这一装置作为交通工具。"
+        }
+      ]
+    },
+    {
+      "id": "ChargedSpear",
+      "names": {
+        "english": "Charged Spear",
+        "chinese": "充能长矛"
+      },
+      "cost": 1,
+      "rarity": "common",
+      "card_type": "equipment",
+      "class": "@ClassDeva",
+      "card_art": "@ChargedSpearCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@ChargedSpearEquip"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentDraftPool",
+        "RoomAndEquipmentMerchant_EquipmentPool",
+        "EquipmentPoolNonEnemy",
+        "FreeEquipmentMutatorPool",
+        "RedCrownEquipmentPool",
+        "RandomGraftedEquipmentForEvent_NoVoidArms_EquipmentPool"
+      ],
+      "traits": [],
+      "lore_tooltips": [
+        {
+          "english": "A power-infused spear empowered by construct technology. It draws ambient surrounding energy to boost its output.",
+          "chinese": "一把灌注了造物力量的动力长矛，可以收集周围散发的能量来提升自身的功率。"
+        }
+      ]
+    },
+    {
+      "id": "SoulBackup",
+      "names": {
+        "english": "Soul Backup",
+        "chinese": "灵魂备份"
+      },
+      "cost": 2,
+      "rarity": "uncommon",
+      "card_type": "equipment",
+      "class": "@ClassDeva",
+      "card_art": "@SoulBackupCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@SoulBackupEquip"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentDraftPool",
+        "RoomAndEquipmentMerchant_EquipmentPool",
+        "EquipmentPoolNonEnemy",
+        "FreeEquipmentMutatorPool",
+        "RedCrownEquipmentPool",
+        "RandomGraftedEquipmentForEvent_NoVoidArms_EquipmentPool"
+      ],
+      "traits": [],
+      "descriptions": {
+        "english": "When [sanson.DevaClan_Reset], keep this equipment and all positive status effects.",
+        "chinese": "被[sanson.DevaClan_Reset]时，保留本装备和所有正面状态效果。"
+      },
+      "lore_tooltips": [
+        {
+          "english": "An ornately carved glazed casket, used to store souls extracted from Deva prior to reset.",
+          "chinese": "一个精心雕刻的琉璃宝盒，用来储存天人在重置前提取出的灵魂。"
+        }
+      ]
+    },
+    {
+      "id": "AsuraDrive",
+      "names": {
+        "english": "Asura Drive",
+        "chinese": "修罗驱动器"
+      },
+      "cost": 3,
+      "rarity": "rare",
+      "card_type": "equipment",
+      "class": "@ClassDeva",
+      "card_art": "@AsuraDriveCardArt",
+      "targets_room": true,
+      "targetless": false,
+      "effects": [
+        "@AsuraDriveEquip"
+      ],
+      "pools": [
+        "MegaPool",
+        "RoomAndEquipmentDraftPool",
+        "RoomAndEquipmentMerchant_EquipmentPool",
+        "EquipmentPoolNonEnemy",
+        "FreeEquipmentMutatorPool",
+        "RedCrownEquipmentPool",
+        "RandomGraftedEquipmentForEvent_NoVoidArms_EquipmentPool"
+      ],
+      "traits": [],
+      "lore_tooltips": [
+        {
+          "english": "An implant harvested from an Asura Swordsman, granting its wielder the combat arts of the Asura.",
+          "chinese": "从修罗剑豪体内取出的植入体，可以让使用者拥有属于修罗的战斗技艺。"
+        }
+      ]
+    },
+    {
+      "id": "AsuraSecret",
+      "names": {
+        "english": "Asura Secret",
+        "chinese": "修罗秘技"
+      },
+      "descriptions": {
+        "english": "Attack immediately, then gain Dazed [effect1.status0.power].",
+        "chinese": "立刻攻击，然后获得眩晕[effect1.status0.power]。"
+      },
+      "is_an_ability": true,
+      "cooldown": 1,
+      "cost": 0,
+      "card_type": "spell",
+      "targetless": true,
+      "targets_room": false,
+      "effects": [
+        "@AsuraSecretEffect",
+        "@AsuraSecretDaze"
+      ],
+      "can_ability_target_other_floors": false
+    }
+  ]
+}

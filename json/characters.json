@@ -1,0 +1,449 @@
+{
+  "characters": [
+    {
+      "id": "NayutaConstruct",
+      "names": {
+        "english": "Nayuta's Construct",
+        "chinese": "那由多的造物"
+      },
+      "character_art": "@NayutaConstructUnitArt",
+      "size": 1,
+      "attack_damage": 2,
+      "health": 1,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@Activate",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "AsuraSwordsman",
+      "names": {
+        "english": "Asura Swordsman",
+        "chinese": "修罗剑豪"
+      },
+      "character_art": "@AsuraSwordsmanUnitArt",
+      "size": 2,
+      "attack_damage": 10,
+      "health": 20,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "sweep",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "ability": "@AsuraSlash",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "GuardConstruct",
+      "names": {
+        "english": "Guard Construct",
+        "chinese": "守卫造物"
+      },
+      "character_art": "@GuardConstructUnitArt",
+      "size": 3,
+      "attack_damage": 0,
+      "health": 40,
+      "subtypes": [
+        "@Construct",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [
+        "@GuardRevenge"
+      ],
+      "hide_in_logbook": false
+    },
+    {
+      "id": "ChantTechnician",
+      "names": {
+        "english": "Chant Technician",
+        "chinese": "诵经技师"
+      },
+      "character_art": "@ChantTechnicianUnitArt",
+      "size": 1,
+      "attack_damage": 0,
+      "health": 20,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@Chant",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "MechSpider",
+      "names": {
+        "english": "Mech Spider",
+        "chinese": "机械蜘蛛"
+      },
+      "character_art": "@MechSpiderUnitArt",
+      "size": 2,
+      "attack_damage": 20,
+      "health": 20,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@SilkPull",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "ResonanceConstruct",
+      "names": {
+        "english": "Resonance Construct",
+        "chinese": "共鸣造物"
+      },
+      "character_art": "@ResonanceConstructUnitArt",
+      "size": 1,
+      "attack_damage": 5,
+      "health": 10,
+      "subtypes": [
+        "@Construct",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [
+        "@ResonanceEvoke"
+      ],
+      "hide_in_logbook": false
+    },
+    {
+      "id": "RitualTechnician",
+      "names": {
+        "english": "Ritual Technician",
+        "chinese": "超度技师"
+      },
+      "character_art": "@RitualTechnicianUnitArt",
+      "size": 1,
+      "attack_damage": 0,
+      "health": 10,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@Rite",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "Idaten",
+      "names": {
+        "english": "Idaten Construct",
+        "chinese": "韦驮天造物"
+      },
+      "character_art": "@IdatenUnitArt",
+      "size": 1,
+      "attack_damage": 5,
+      "health": 1,
+      "subtypes": [
+        "@Construct",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "ambush",
+          "count": 1
+        },
+        {
+          "status": "burst",
+          "count": 4
+        }
+      ],
+      "triggers": [],
+      "ability": "@IdatenSpeed",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "Vajra",
+      "names": {
+        "english": "Vajra Construct",
+        "chinese": "造物金刚"
+      },
+      "character_art": "@VajraUnitArt",
+      "size": 4,
+      "attack_damage": 120,
+      "health": 60,
+      "subtypes": [
+        "@Construct",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@VajraGlare",
+      "hide_in_logbook": false,
+      "can_attack": false
+    },
+    {
+      "id": "Siren",
+      "names": {
+        "english": "Melodic Siren",
+        "chinese": "妙音歌姬"
+      },
+      "character_art": "@SirenUnitArt",
+      "size": 2,
+      "attack_damage": 5,
+      "health": 20,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_BannerUnit"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@SirenSong",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "ChargeGunner",
+      "names": {
+        "english": "Charge Gunner",
+        "chinese": "充能枪手"
+      },
+      "character_art": "@ChargeGunnerUnitArt",
+      "size": 2,
+      "attack_damage": 15,
+      "health": 5,
+      "subtypes": [
+        "@Deva"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@ChargeShot",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "EmberConverter",
+      "names": {
+        "english": "Ember Converter",
+        "chinese": "薪火转换器"
+      },
+      "character_art": "@EmberConverterUnitArt",
+      "size": 1,
+      "attack_damage": 0,
+      "health": 10,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@Convert",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "AttackConstruct",
+      "names": {
+        "english": "Attack Construct",
+        "chinese": "攻击造物"
+      },
+      "character_art": "@AttackConstructUnitArt",
+      "size": 2,
+      "attack_damage": 5,
+      "health": 20,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "ability": "@Focus",
+      "hide_in_logbook": false
+    },
+    {
+      "id": "Sinner",
+      "names": {
+        "english": "Indulgent Sinner",
+        "chinese": "沉湎罪人"
+      },
+      "character_art": "@SinnerUnitArt",
+      "size": 2,
+      "attack_damage": 10,
+      "health": 10,
+      "subtypes": [
+        "@Deva"
+      ],
+      "starting_status_effects": [],
+      "triggers": [
+        "@SinnerSummon"
+      ],
+      "hide_in_logbook": false
+    },
+    {
+      "id": "Perfect1",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "character_art": "@Perfect1UnitArt",
+      "size": 1,
+      "attack_damage": 10,
+      "health": 10,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "cardless",
+          "count": 1
+        },
+        {
+          "status": "@temporary",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Perfect2",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "character_art": "@Perfect2UnitArt",
+      "size": 1,
+      "attack_damage": 20,
+      "health": 20,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "cardless",
+          "count": 1
+        },
+        {
+          "status": "@temporary",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Perfect3",
+      "names": {
+        "english": "Perfect Construct",
+        "chinese": "完美造物"
+      },
+      "character_art": "@Perfect3UnitArt",
+      "size": 1,
+      "attack_damage": 40,
+      "health": 40,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "cardless",
+          "count": 1
+        },
+        {
+          "status": "@temporary",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Giant",
+      "names": {
+        "english": "Nayuta's Giant Construct",
+        "chinese": "那由多的巨大造物"
+      },
+      "character_art": "@GiantUnitArt",
+      "size": 2,
+      "attack_damage": 20,
+      "health": 20,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "trample",
+          "count": 1
+        },
+        {
+          "status": "cardless",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Firewall",
+      "names": {
+        "english": "Firewall Construct",
+        "chinese": "防火墙造物"
+      },
+      "character_art": "@FirewallUnitArt",
+      "size": 1,
+      "attack_damage": 0,
+      "health": 60,
+      "subtypes": [
+        "@Construct"
+      ],
+      "starting_status_effects": [
+        {
+          "status": "cardless",
+          "count": 1
+        },
+        {
+          "status": "@temporary",
+          "count": 1
+        }
+      ],
+      "triggers": [],
+      "hide_in_logbook": true
+    },
+    {
+      "id": "Mara",
+      "names": {
+        "english": "Mara Podian",
+        "chinese": "“魔罗”波甸"
+      },
+      "character_art": "@MaraUnitArt",
+      "size": 2,
+      "attack_damage": 20,
+      "health": 20,
+      "subtypes": [
+        "@Deva",
+        "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "hide_in_logbook": false
+    },
+    {
+      "id": "Nayuta",
+      "names": {
+        "english": "Nayuta, Unit Zero",
+        "chinese": "“初号机”那由多"
+      },
+      "character_art": "@NayutaUnitArt",
+      "size": 1,
+      "attack_damage": 5,
+      "health": 5,
+      "subtypes": [
+        "@Construct",
+        "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+      ],
+      "starting_status_effects": [],
+      "triggers": [],
+      "hide_in_logbook": false
+    }
+  ]
+}

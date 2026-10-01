@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "errors": [],
+  "counts": {
+    "additional_tooltips": 3,
+    "card_pools": 1,
+    "card_triggers": 1,
+    "cards": 66,
+    "character_triggers": 19,
+    "characters": 21,
+    "class_card_styles": 1,
+    "classes": 1,
+    "effects": 90,
+    "game_objects": 71,
+    "huds": 1,
+    "map_nodes": 1,
+    "relic_effects": 2,
+    "relics": 10,
+    "replacement_texts": 2,
+    "rewards": 1,
+    "room_modifiers": 2,
+    "sprites": 118,
+    "status_effects": 2,
+    "subtypes": 2,
+    "tracked_value_types": 1,
+    "traits": 4,
+    "upgrades": 30
+  }
+}

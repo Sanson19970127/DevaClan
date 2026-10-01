@@ -1,0 +1,15 @@
+{
+  "card_triggers": [
+    {
+      "id": "ExorciseSlay",
+      "trigger": "on_kill",
+      "effects": [
+        "@ExorciseCharge"
+      ],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      }
+    }
+  ]
+}

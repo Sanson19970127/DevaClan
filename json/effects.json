@@ -1,0 +1,820 @@
+{
+  "effects": [
+    {
+      "id": "MantraEffect",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "ActivateEffect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "NayutaConstructSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@NayutaConstruct"
+    },
+    {
+      "id": "AsuraSlashEffect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "AsuraSwordsmanSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@AsuraSwordsman"
+    },
+    {
+      "id": "RevengeCharge",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "GuardConstructSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@GuardConstruct"
+    },
+    {
+      "id": "ChantEffect",
+      "name": "@CardEffectOtherAllyStatus",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ChantTechnicianSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@ChantTechnician"
+    },
+    {
+      "id": "SilkPullEffect",
+      "name": "@CardEffectSilkPull",
+      "target_mode": "drop_target_character",
+      "target_team": "both",
+      "param_int": 0
+    },
+    {
+      "id": "MechSpiderSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@MechSpider"
+    },
+    {
+      "id": "ResonanceDamage",
+      "name": "CardEffectDamage",
+      "target_mode": "front_in_room",
+      "target_team": "heroes",
+      "param_int": 30
+    },
+    {
+      "id": "ResonanceConstructSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@ResonanceConstruct"
+    },
+    {
+      "id": "RiteEffect",
+      "name": "@CardEffectRitualReset",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "RitualTechnicianSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@RitualTechnician"
+    },
+    {
+      "id": "IdatenSpeedEffect",
+      "name": "@CardEffectIdatenRecall",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "IdatenSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Idaten"
+    },
+    {
+      "id": "VajraGlareEffect",
+      "name": "@CardEffectVajraGlare",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "VajraSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Vajra"
+    },
+    {
+      "id": "SirenSongEffect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "drop_target_character",
+      "target_team": "heroes",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 1
+        },
+        {
+          "status": "rooted",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "SirenSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Siren"
+    },
+    {
+      "id": "ChargeShotEffect",
+      "name": "@CardEffectDirectedAttack",
+      "target_mode": "drop_target_character",
+      "target_team": "heroes",
+      "param_int": 0
+    },
+    {
+      "id": "ChargeGunnerSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@ChargeGunner"
+    },
+    {
+      "id": "ConvertEffect",
+      "name": "CardEffectGainEnergy",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 1
+    },
+    {
+      "id": "EmberConverterSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@EmberConverter"
+    },
+    {
+      "id": "FocusEffect",
+      "name": "CardEffectBuffDamage",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 10
+    },
+    {
+      "id": "AttackConstructSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@AttackConstruct"
+    },
+    {
+      "id": "SinnerKarma",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SinnerSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Sinner"
+    },
+    {
+      "id": "Perfect1Spawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Perfect1"
+    },
+    {
+      "id": "Perfect2Spawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Perfect2"
+    },
+    {
+      "id": "Perfect3Spawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Perfect3"
+    },
+    {
+      "id": "GiantSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Giant"
+    },
+    {
+      "id": "FirewallSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Firewall"
+    },
+    {
+      "id": "MaraSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Mara"
+    },
+    {
+      "id": "NayutaSpawn",
+      "name": "CardEffectSpawnMonster",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_character": "@Nayuta"
+    },
+    {
+      "id": "PerfectCreation1Effect",
+      "name": "@CardEffectPerfectCreation",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ConstructTip"
+      ]
+    },
+    {
+      "id": "PerfectCreation2Effect",
+      "name": "@CardEffectPerfectCreation",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 2,
+      "additional_tooltips": [
+        "@ConstructTip"
+      ]
+    },
+    {
+      "id": "PerfectCreation3Effect",
+      "name": "@CardEffectPerfectCreation",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 3,
+      "additional_tooltips": [
+        "@ConstructTip"
+      ]
+    },
+    {
+      "id": "MaraLiberationEvoke1Effect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "MaraLiberationEvoke2Effect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MaraLiberationEvoke3Effect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MaraAsuraSlay1Effect",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "MaraAsuraSlay2Effect",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 2,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "MaraAsuraSlay3Effect",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 2,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "NayutaServerEvoke1Effect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "NayutaServerEvoke2Effect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "NayutaServerEvoke3Effect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "NayutaSwarmEvoke1Effect",
+      "name": "CardEffectBuffDamage",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 2
+    },
+    {
+      "id": "NayutaSwarmEvoke2Effect",
+      "name": "CardEffectBuffDamage",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 4
+    },
+    {
+      "id": "NayutaSwarmEvoke3Effect",
+      "name": "CardEffectBuffDamage",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 6
+    },
+    {
+      "id": "NayutaRecreateSummon1Effect",
+      "name": "@CardEffectGiantCreation",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "Improve1Effect",
+      "name": "@CardEffectImproveGiant",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "NayutaRecreateSummon2Effect",
+      "name": "@CardEffectGiantCreation",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "Improve2Effect",
+      "name": "@CardEffectImproveGiant",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 2,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "NayutaRecreateSummon3Effect",
+      "name": "@CardEffectGiantCreation",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "Improve3Effect",
+      "name": "@CardEffectImproveGiant",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 3,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "FormatEffect",
+      "name": "@CardEffectFormatConstruct",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 1,
+      "additional_tooltips": [
+        "@ConstructTip",
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "CreationEffect",
+      "name": "@CardEffectCreateConstruct",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ConstructTip"
+      ]
+    },
+    {
+      "id": "RestartEffect",
+      "name": "@CardEffectResetConstruct",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ResetTip",
+        "@ConstructTip"
+      ]
+    },
+    {
+      "id": "NectarEffect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "drop_target_character",
+      "target_team": "both",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IsolationEffect",
+      "name": "@CardEffectFirewallCreation",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "ExorciseEffect",
+      "name": "CardEffectDamage",
+      "target_mode": "drop_target_character",
+      "target_team": "heroes",
+      "param_int": 10
+    },
+    {
+      "id": "LiberationEffect",
+      "name": "@CardEffectLiberation",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "AsceticismEffect",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 3,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "NirvanaEffect",
+      "name": "@CardEffectResetUnit",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "ProtectEffect",
+      "name": "@CardEffectFrontAllyAttack",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "SamadhiEffect",
+      "name": "@CardEffectTurnStasis",
+      "target_mode": "drop_target_character",
+      "target_team": "both",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "untouchable",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "HologramEffect",
+      "name": "@CardEffectHologram",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "FeastEffect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AnointEffect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DevaSpikeEffect",
+      "name": "@CardEffectDevaSpike",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ],
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BookOfRebirthEffect",
+      "name": "@CardEffectRebirth",
+      "target_mode": "exhaust",
+      "target_team": "monsters",
+      "param_int": 0,
+      "target_card_type": "monster",
+      "param_status_effects": [
+        {
+          "status": "@karmergy",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "HeavenlyWrathEffect",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "drop_target_character",
+      "target_team": "heroes",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "melee weakness",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "PurifySilence",
+      "name": "@CardEffectTurnSilence",
+      "target_mode": "room",
+      "target_team": "heroes",
+      "param_int": 1,
+      "param_status_effects": [
+        {
+          "status": "silenced",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "PurifyDamage",
+      "name": "CardEffectDamage",
+      "target_mode": "room",
+      "target_team": "heroes",
+      "param_int": 5
+    },
+    {
+      "id": "SixDamage",
+      "name": "CardEffectDamage",
+      "target_mode": "room",
+      "target_team": "heroes",
+      "param_int": 6
+    },
+    {
+      "id": "AsuraArenaAttach",
+      "name": "CardEffectAttachTrainRoomAttachment",
+      "target_mode": "room",
+      "target_team": "heroes",
+      "param_int": 0,
+      "param_upgrade": "@AsuraArenaUpgrade",
+      "target_ignore_bosses": true
+    },
+    {
+      "id": "MeditationChamberAttach",
+      "name": "CardEffectAttachTrainRoomAttachment",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_upgrade": "@MeditationChamberUpgrade",
+      "target_ignore_bosses": false
+    },
+    {
+      "id": "CollectiveRitesEffect",
+      "name": "@CardEffectResetFloor",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "additional_tooltips": [
+        "@ResetTip"
+      ]
+    },
+    {
+      "id": "AccelerationMatrixAttach",
+      "name": "CardEffectAttachTrainRoomAttachment",
+      "target_mode": "room",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_upgrade": "@AccelerationMatrixUpgrade",
+      "target_ignore_bosses": false
+    },
+    {
+      "id": "ChargedSpearEquip",
+      "name": "CardEffectAttachEquipment",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_upgrade": "@ChargedSpearUpgrade"
+    },
+    {
+      "id": "SpearGain",
+      "name": "CardEffectBuffDamage",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 3
+    },
+    {
+      "id": "SoulBackupEquip",
+      "name": "CardEffectAttachEquipment",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_upgrade": "@SoulBackupUpgrade"
+    },
+    {
+      "id": "AsuraDriveEquip",
+      "name": "CardEffectAttachEquipment",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_upgrade": "@AsuraDriveUpgrade"
+    },
+    {
+      "id": "AsuraSecretEffect",
+      "name": "@CardEffectImmediateAttack",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0
+    },
+    {
+      "id": "ExorciseCharge",
+      "name": "@CardEffectGainCharge",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 2,
+      "additional_tooltips": [
+        "@ChargeTip"
+      ]
+    },
+    {
+      "id": "AnointConvert",
+      "name": "@CardEffectConvertKarmergy",
+      "target_mode": "drop_target_character",
+      "target_team": "monsters",
+      "param_int": 3
+    },
+    {
+      "id": "HeavenlyWrathAttack",
+      "name": "@CardEffectFloorFocusAttack",
+      "target_mode": "drop_target_character",
+      "target_team": "heroes"
+    },
+    {
+      "id": "AsuraSecretDaze",
+      "name": "CardEffectAddStatusEffect",
+      "target_mode": "self",
+      "target_team": "monsters",
+      "param_int": 0,
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "character_triggers": [
+    {
+      "id": "GuardRevenge",
+      "trigger": "on_hit",
+      "effects": [
+        "@RevengeCharge"
+      ],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      }
+    },
+    {
+      "id": "ResonanceEvoke",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@ResonanceDamage"
+      ],
+      "descriptions": {
+        "english": "Deal [effect0.power] damage to the front enemy.",
+        "chinese": "对前排敌人造成[effect0.power]点伤害。"
+      }
+    },
+    {
+      "id": "SinnerSummon",
+      "trigger": "on_spawn",
+      "effects": [
+        "@SinnerKarma"
+      ],
+      "descriptions": {
+        "english": "Gain [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      }
+    },
+    {
+      "id": "MaraLiberationEvoke1",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@MaraLiberationEvoke1Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      }
+    },
+    {
+      "id": "MaraLiberationEvoke2",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@MaraLiberationEvoke2Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      }
+    },
+    {
+      "id": "MaraLiberationEvoke3",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@MaraLiberationEvoke3Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [sanson.DevaClan_karmergy] [effect0.status0.power].",
+        "chinese": "获得[sanson.DevaClan_karmergy][effect0.status0.power]。"
+      }
+    },
+    {
+      "id": "MaraAsuraSlay1",
+      "trigger": "on_kill",
+      "effects": [
+        "@MaraAsuraSlay1Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      }
+    },
+    {
+      "id": "MaraAsuraSlay2",
+      "trigger": "on_kill",
+      "effects": [
+        "@MaraAsuraSlay2Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      }
+    },
+    {
+      "id": "MaraAsuraSlay3",
+      "trigger": "on_kill",
+      "effects": [
+        "@MaraAsuraSlay3Effect"
+      ],
+      "descriptions": {
+        "english": "Gain [effect0.power] [sanson.DevaClan_Charge].",
+        "chinese": "获得[effect0.power]点[sanson.DevaClan_Charge]。"
+      }
+    },
+    {
+      "id": "NayutaServerEvoke1",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaServerEvoke1Effect"
+      ],
+      "descriptions": {
+        "english": "Attack immediately.",
+        "chinese": "立刻攻击。"
+      }
+    },
+    {
+      "id": "NayutaServerEvoke2",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaServerEvoke2Effect"
+      ],
+      "descriptions": {
+        "english": "Attack immediately.",
+        "chinese": "立刻攻击。"
+      }
+    },
+    {
+      "id": "NayutaServerEvoke3",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaServerEvoke3Effect"
+      ],
+      "descriptions": {
+        "english": "Attack immediately.",
+        "chinese": "立刻攻击。"
+      }
+    },
+    {
+      "id": "NayutaSwarmEvoke1",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaSwarmEvoke1Effect"
+      ],
+      "descriptions": {
+        "english": "Friendly units here gain +[effect0.power] attack.",
+        "chinese": "本层所有友方单位+[effect0.power]攻击力。"
+      }
+    },
+    {
+      "id": "NayutaSwarmEvoke2",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaSwarmEvoke2Effect"
+      ],
+      "descriptions": {
+        "english": "Friendly units here gain +[effect0.power] attack.",
+        "chinese": "本层所有友方单位+[effect0.power]攻击力。"
+      }
+    },
+    {
+      "id": "NayutaSwarmEvoke3",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@NayutaSwarmEvoke3Effect"
+      ],
+      "descriptions": {
+        "english": "Friendly units here gain +[effect0.power] attack.",
+        "chinese": "本层所有友方单位+[effect0.power]攻击力。"
+      }
+    },
+    {
+      "id": "NayutaRecreateSummon1",
+      "trigger": "on_spawn",
+      "effects": [
+        "@NayutaRecreateSummon1Effect"
+      ],
+      "descriptions": {
+        "english": "Summon Nayuta's Giant Construct directly in front of this unit (20/20, 2 capacity, Trample, Cardless; inherits permanent improvements).",
+        "chinese": "在自身紧邻身前召唤那由多的巨大造物（基础20/20，2格，践踏，无卡牌；继承永久改进）。"
+      }
+    },
+    {
+      "id": "NayutaRecreateSummon2",
+      "trigger": "on_spawn",
+      "effects": [
+        "@NayutaRecreateSummon2Effect"
+      ],
+      "descriptions": {
+        "english": "Summon Nayuta's Giant Construct directly in front of this unit (20/20, 2 capacity, Trample, Cardless; inherits permanent improvements).",
+        "chinese": "在自身紧邻身前召唤那由多的巨大造物（基础20/20，2格，践踏，无卡牌；继承永久改进）。"
+      }
+    },
+    {
+      "id": "NayutaRecreateSummon3",
+      "trigger": "on_spawn",
+      "effects": [
+        "@NayutaRecreateSummon3Effect"
+      ],
+      "descriptions": {
+        "english": "Summon Nayuta's Giant Construct directly in front of this unit (20/20, 2 capacity, Trample, Cardless; inherits permanent improvements).",
+        "chinese": "在自身紧邻身前召唤那由多的巨大造物（基础20/20，2格，践踏，无卡牌；继承永久改进）。"
+      }
+    },
+    {
+      "id": "SpearEvoke",
+      "trigger": {
+        "id": "@Evoke",
+        "mod_reference": "Conductor"
+      },
+      "effects": [
+        "@SpearGain"
+      ],
+      "descriptions": {
+        "english": "Gain +[effect0.power] attack.",
+        "chinese": "获得+[effect0.power]攻击力。"
+      }
+    }
+  ]
+}

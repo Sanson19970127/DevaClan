@@ -1,0 +1,51 @@
+{
+  "status_effects": [
+    {
+      "id": "karmergy",
+      "class_name": "@StatusEffectKarmergy",
+      "names": {
+        "english": "Karmergy",
+        "chinese": "业力"
+      },
+      "stackable_names": {
+        "english": "Karmergy {0}",
+        "chinese": "业力 {0}"
+      },
+      "card_tooltips": {
+        "english": "+10/+10 per stack. Lost at turn start. Retained through death and returning to hand.",
+        "chinese": "每层+10/+10。回合开始时失去。死亡或回手后保留。"
+      },
+      "character_tooltips": {
+        "english": "+10/+10 per stack. Lost at turn start. Retained through death and returning to hand.",
+        "chinese": "每层+10/+10。回合开始时失去。死亡或回手后保留。"
+      },
+      "replacement_texts": {
+        "english": "<b>Karmergy</b>",
+        "chinese": "<b>业力</b>"
+      },
+      "is_stackable": true,
+      "is_propagatable": true,
+      "display_category": "positive",
+      "icon": "@KarmaIcon"
+    },
+    {
+      "id": "temporary",
+      "class_name": "@StatusEffectTemporary",
+      "names": {
+        "english": "Temporary",
+        "chinese": "临时造物"
+      },
+      "is_stackable": false,
+      "display_category": "persistent",
+      "card_tooltips": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下个回合开始时被消灭。"
+      },
+      "character_tooltips": {
+        "english": "Dies at the start of your next turn.",
+        "chinese": "你的下个回合开始时被消灭。"
+      },
+      "icon": "@TemporaryIcon"
+    }
+  ]
+}

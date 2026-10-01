@@ -1,0 +1,12 @@
+{
+  "relic_effects": [
+    {
+      "id": "Marker",
+      "name": "@RelicEffectDevaMarker"
+    },
+    {
+      "id": "BlueprintEffect",
+      "name": "@RelicEffectBlueprint"
+    }
+  ]
+}

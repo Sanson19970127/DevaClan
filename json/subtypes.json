@@ -1,0 +1,18 @@
+{
+  "subtypes": [
+    {
+      "id": "Deva",
+      "names": {
+        "english": "Deva",
+        "chinese": "天人"
+      }
+    },
+    {
+      "id": "Construct",
+      "names": {
+        "english": "Construct",
+        "chinese": "造物"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "classes": [
+    {
+      "id": "ClassDeva",
+      "titles": {
+        "english": "Deva",
+        "chinese": "天人"
+      },
+      "descriptions": {
+        "english": "Visitors from a simulated world. Spend [sanson.DevaClan_Charge] to activate cooling abilities, and reconstruct bodies through [sanson.DevaClan_Reset].",
+        "chinese": "来自模拟世界的天人。使用[sanson.DevaClan_Charge]连续发动主动能力，通过[sanson.DevaClan_Reset]重塑躯体。"
+      },
+      "subclass_descriptions": {
+        "english": "Deva excel at sudden attacks, Constructs and [sanson.DevaClan_Reset].",
+        "chinese": "天人擅长主动出击，运用造物与[sanson.DevaClan_Reset]压制敌人。"
+      },
+      "icons": {
+        "small": "@BasicClanSmallIcon",
+        "medium": "@BasicClanMediumIcon",
+        "large": "@BasicClanLargeIcon",
+        "silhouette": "@BasicClanSilhouetteIcon"
+      },
+      "card_draft_icon": "@CardDraftIcon",
+      "class_select_character_displays": [
+        "@MaraDisplay",
+        "@NayutaDisplay"
+      ],
+      "card_style": "@BasicClanCardStyle",
+      "ui_color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "ui_color_dark": {
+        "r": 0.75,
+        "g": 0.75,
+        "b": 0.75
+      },
+      "ui_gradient": [
+        {
+          "time": 0.0,
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          }
+        },
+        {
+          "time": 1.0,
+          "color": {
+            "r": 0.75,
+            "g": 0.75,
+            "b": 0.75
+          }
+        }
+      ],
+      "champions": [
+        {
+          "id": "MaraChampion",
+          "card_data": "@Mara",
+          "starter_card": "@Mantra",
+          "upgrade_tree": [
+            [
+              "@MaraCreator1",
+              "@MaraCreator2",
+              "@MaraCreator3"
+            ],
+            [
+              "@MaraLiberation1",
+              "@MaraLiberation2",
+              "@MaraLiberation3"
+            ],
+            [
+              "@MaraAsura1",
+              "@MaraAsura2",
+              "@MaraAsura3"
+            ]
+          ],
+          "icon": "@MaraIcon",
+          "locked_icon": "@MaraLockedIcon",
+          "portrait": "@MaraPortrait"
+        },
+        {
+          "id": "NayutaChampion",
+          "card_data": "@Nayuta",
+          "starter_card": "@NayutaConstruct",
+          "upgrade_tree": [
+            [
+              "@NayutaServer1",
+              "@NayutaServer2",
+              "@NayutaServer3"
+            ],
+            [
+              "@NayutaSwarm1",
+              "@NayutaSwarm2",
+              "@NayutaSwarm3"
+            ],
+            [
+              "@NayutaRecreate1",
+              "@NayutaRecreate2",
+              "@NayutaRecreate3"
+            ]
+          ],
+          "icon": "@NayutaIcon",
+          "locked_icon": "@NayutaLockedIcon",
+          "portrait": "@NayutaPortrait"
+        }
+      ]
+    }
+  ]
+}

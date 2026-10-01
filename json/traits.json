@@ -1,0 +1,20 @@
+{
+  "traits": [
+    {
+      "id": "Consume",
+      "name": "CardTraitExhaustState"
+    },
+    {
+      "id": "Retain",
+      "name": "CardTraitRetain"
+    },
+    {
+      "id": "Permafrost",
+      "name": "CardTraitPermafrost"
+    },
+    {
+      "id": "Ephemeral",
+      "name": "CardTraitEphemeral"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>DevaClan</AssemblyName>
+    <Version>0.2.9</Version>
+    <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\Monster Train 2</GameDir>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <Reference Include="$(GameDir)/MonsterTrain2_Data/Managed/*.dll" Exclude="$(GameDir)/MonsterTrain2_Data/Managed/mscorlib.dll;$(GameDir)/MonsterTrain2_Data/Managed/netstandard.dll;$(GameDir)/MonsterTrain2_Data/Managed/System*.dll" Private="false" />
+    <Reference Include="$(GameDir)/BepInEx/core/BepInEx.dll" Private="false" />
+    <Reference Include="$(GameDir)/BepInEx/core/0Harmony.dll" Private="false" />
+    <Reference Include="$(GameDir)/BepInEx/plugins/Trainworks/**/*.dll" Private="false" />
+    <Reference Include="$(GameDir)/BepInEx/plugins/Conductor/**/Conductor.dll" Private="false" />
+  </ItemGroup>
+</Project>

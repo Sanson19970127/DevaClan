@@ -1,0 +1,476 @@
+{
+  "sprites": [
+    {
+      "id": "BasicClanEquipmentRoomBorder",
+      "path": "textures/card_borders/BasicCardBorderEquipmentRoom.png"
+    },
+    {
+      "id": "BasicClanUnitBorder",
+      "path": "textures/card_borders/BasicCardBorderUnit.png"
+    },
+    {
+      "id": "BasicClanSpellBorder",
+      "path": "textures/card_borders/BasicCardBorderSpell.png"
+    },
+    {
+      "id": "BasicBannerMapIcon",
+      "path": "textures/banners/BasicBanner_MapIcon.png"
+    },
+    {
+      "id": "ClanBannerMinimapIcon",
+      "path": "textures/banners/ClanBannerMinimapIcon.png"
+    },
+    {
+      "id": "BasicBannerDisabledMapIcon",
+      "path": "textures/banners/BasicBanner_Disabled.png"
+    },
+    {
+      "id": "BasicBannerEnabledMapIcon",
+      "path": "textures/banners/BasicBanner_Enabled.png"
+    },
+    {
+      "id": "BasicBannerFrozenMapIcon",
+      "path": "textures/banners/BasicBanner_Frozen.png"
+    },
+    {
+      "id": "BasicBannerVisitedDisabledIcon",
+      "path": "textures/banners/BasicBanner_VisitedDisabled.png"
+    },
+    {
+      "id": "KarmaIcon",
+      "path": "textures/icons/KarmaIcon.png"
+    },
+    {
+      "id": "ChargeBackground",
+      "path": "textures/ui/ChargeBackground.png"
+    },
+    {
+      "id": "ChargeIcon",
+      "path": "textures/ui/ChargeIcon.png"
+    },
+    {
+      "id": "MantraCardSprite",
+      "path": "textures/card_art/Mantra.png"
+    },
+    {
+      "id": "NayutaConstructCardSprite",
+      "path": "textures/card_art/NayutaConstruct.png"
+    },
+    {
+      "id": "NayutaConstructUnitSprite",
+      "path": "textures/character_art/NayutaConstruct.png"
+    },
+    {
+      "id": "AsuraSwordsmanCardSprite",
+      "path": "textures/card_art/AsuraSwordsman.png"
+    },
+    {
+      "id": "AsuraSwordsmanUnitSprite",
+      "path": "textures/character_art/AsuraSwordsman.png"
+    },
+    {
+      "id": "GuardConstructCardSprite",
+      "path": "textures/card_art/GuardConstruct.png"
+    },
+    {
+      "id": "GuardConstructUnitSprite",
+      "path": "textures/character_art/GuardConstruct.png"
+    },
+    {
+      "id": "ChantTechnicianCardSprite",
+      "path": "textures/card_art/ChantTechnician.png"
+    },
+    {
+      "id": "ChantTechnicianUnitSprite",
+      "path": "textures/character_art/ChantTechnician.png"
+    },
+    {
+      "id": "MechSpiderCardSprite",
+      "path": "textures/card_art/MechSpider.png"
+    },
+    {
+      "id": "MechSpiderUnitSprite",
+      "path": "textures/character_art/MechSpider.png"
+    },
+    {
+      "id": "ResonanceConstructCardSprite",
+      "path": "textures/card_art/ResonanceConstruct.png"
+    },
+    {
+      "id": "ResonanceConstructUnitSprite",
+      "path": "textures/character_art/ResonanceConstruct.png"
+    },
+    {
+      "id": "RitualTechnicianCardSprite",
+      "path": "textures/card_art/RitualTechnician.png"
+    },
+    {
+      "id": "RitualTechnicianUnitSprite",
+      "path": "textures/character_art/RitualTechnician.png"
+    },
+    {
+      "id": "IdatenCardSprite",
+      "path": "textures/card_art/Idaten.png"
+    },
+    {
+      "id": "IdatenUnitSprite",
+      "path": "textures/character_art/Idaten.png"
+    },
+    {
+      "id": "VajraCardSprite",
+      "path": "textures/card_art/Vajra.png"
+    },
+    {
+      "id": "VajraUnitSprite",
+      "path": "textures/character_art/Vajra.png"
+    },
+    {
+      "id": "SirenCardSprite",
+      "path": "textures/card_art/Siren.png"
+    },
+    {
+      "id": "SirenUnitSprite",
+      "path": "textures/character_art/Siren.png"
+    },
+    {
+      "id": "ChargeGunnerCardSprite",
+      "path": "textures/card_art/ChargeGunner.png"
+    },
+    {
+      "id": "ChargeGunnerUnitSprite",
+      "path": "textures/character_art/ChargeGunner.png"
+    },
+    {
+      "id": "EmberConverterCardSprite",
+      "path": "textures/card_art/EmberConverter.png"
+    },
+    {
+      "id": "EmberConverterUnitSprite",
+      "path": "textures/character_art/EmberConverter.png"
+    },
+    {
+      "id": "AttackConstructCardSprite",
+      "path": "textures/card_art/AttackConstruct.png"
+    },
+    {
+      "id": "AttackConstructUnitSprite",
+      "path": "textures/character_art/AttackConstruct.png"
+    },
+    {
+      "id": "SinnerCardSprite",
+      "path": "textures/card_art/Sinner.png"
+    },
+    {
+      "id": "SinnerUnitSprite",
+      "path": "textures/character_art/Sinner.png"
+    },
+    {
+      "id": "Perfect1CardSprite",
+      "path": "textures/card_art/Perfect1.png"
+    },
+    {
+      "id": "Perfect1UnitSprite",
+      "path": "textures/character_art/Perfect1.png"
+    },
+    {
+      "id": "Perfect2CardSprite",
+      "path": "textures/card_art/Perfect2.png"
+    },
+    {
+      "id": "Perfect2UnitSprite",
+      "path": "textures/character_art/Perfect2.png"
+    },
+    {
+      "id": "Perfect3CardSprite",
+      "path": "textures/card_art/Perfect3.png"
+    },
+    {
+      "id": "Perfect3UnitSprite",
+      "path": "textures/character_art/Perfect3.png"
+    },
+    {
+      "id": "GiantCardSprite",
+      "path": "textures/card_art/Giant.png"
+    },
+    {
+      "id": "GiantUnitSprite",
+      "path": "textures/character_art/Giant.png"
+    },
+    {
+      "id": "FirewallCardSprite",
+      "path": "textures/card_art/Firewall.png"
+    },
+    {
+      "id": "FirewallUnitSprite",
+      "path": "textures/character_art/Firewall.png"
+    },
+    {
+      "id": "MaraCardSprite",
+      "path": "textures/card_art/Mara.png"
+    },
+    {
+      "id": "MaraUnitSprite",
+      "path": "textures/character_art/Mara.png"
+    },
+    {
+      "id": "NayutaCardSprite",
+      "path": "textures/card_art/Nayuta.png"
+    },
+    {
+      "id": "NayutaUnitSprite",
+      "path": "textures/character_art/Nayuta.png"
+    },
+    {
+      "id": "FormatCardSprite",
+      "path": "textures/card_art/Format.png"
+    },
+    {
+      "id": "CreationCardSprite",
+      "path": "textures/card_art/Creation.png"
+    },
+    {
+      "id": "RestartCardSprite",
+      "path": "textures/card_art/Restart.png"
+    },
+    {
+      "id": "NectarCardSprite",
+      "path": "textures/card_art/Nectar.png"
+    },
+    {
+      "id": "IsolationCardSprite",
+      "path": "textures/card_art/Isolation.png"
+    },
+    {
+      "id": "ExorciseCardSprite",
+      "path": "textures/card_art/Exorcise.png"
+    },
+    {
+      "id": "LiberationCardSprite",
+      "path": "textures/card_art/Liberation.png"
+    },
+    {
+      "id": "AsceticismCardSprite",
+      "path": "textures/card_art/Asceticism.png"
+    },
+    {
+      "id": "NirvanaCardSprite",
+      "path": "textures/card_art/Nirvana.png"
+    },
+    {
+      "id": "ProtectCardSprite",
+      "path": "textures/card_art/Protect.png"
+    },
+    {
+      "id": "SamadhiCardSprite",
+      "path": "textures/card_art/Samadhi.png"
+    },
+    {
+      "id": "HologramCardSprite",
+      "path": "textures/card_art/Hologram.png"
+    },
+    {
+      "id": "FeastCardSprite",
+      "path": "textures/card_art/Feast.png"
+    },
+    {
+      "id": "AnointCardSprite",
+      "path": "textures/card_art/Anoint.png"
+    },
+    {
+      "id": "DevaSpikeCardSprite",
+      "path": "textures/card_art/DevaSpike.png"
+    },
+    {
+      "id": "BookOfRebirthCardSprite",
+      "path": "textures/card_art/BookOfRebirth.png"
+    },
+    {
+      "id": "HeavenlyWrathCardSprite",
+      "path": "textures/card_art/HeavenlyWrath.png"
+    },
+    {
+      "id": "PurifyCardSprite",
+      "path": "textures/card_art/Purify.png"
+    },
+    {
+      "id": "SixRealmsCardSprite",
+      "path": "textures/card_art/SixRealms.png"
+    },
+    {
+      "id": "AsuraArenaCardSprite",
+      "path": "textures/card_art/AsuraArena.png"
+    },
+    {
+      "id": "MeditationChamberCardSprite",
+      "path": "textures/card_art/MeditationChamber.png"
+    },
+    {
+      "id": "AccelerationMatrixCardSprite",
+      "path": "textures/card_art/AccelerationMatrix.png"
+    },
+    {
+      "id": "ChargedSpearCardSprite",
+      "path": "textures/card_art/ChargedSpear.png"
+    },
+    {
+      "id": "SoulBackupCardSprite",
+      "path": "textures/card_art/SoulBackup.png"
+    },
+    {
+      "id": "AsuraDriveCardSprite",
+      "path": "textures/card_art/AsuraDrive.png"
+    },
+    {
+      "id": "ConstructBlueprintIcon",
+      "path": "textures/relic_art/ConstructBlueprintIcon.png"
+    },
+    {
+      "id": "ConstructBlueprintSmallIcon",
+      "path": "textures/relic_art/ConstructBlueprintSmallIcon.png"
+    },
+    {
+      "id": "KarmicIncenseIcon",
+      "path": "textures/relic_art/KarmicIncenseIcon.png"
+    },
+    {
+      "id": "KarmicIncenseSmallIcon",
+      "path": "textures/relic_art/KarmicIncenseSmallIcon.png"
+    },
+    {
+      "id": "ChargeRecyclerIcon",
+      "path": "textures/relic_art/ChargeRecyclerIcon.png"
+    },
+    {
+      "id": "ChargeRecyclerSmallIcon",
+      "path": "textures/relic_art/ChargeRecyclerSmallIcon.png"
+    },
+    {
+      "id": "ReserveEnergyIcon",
+      "path": "textures/relic_art/ReserveEnergyIcon.png"
+    },
+    {
+      "id": "ReserveEnergySmallIcon",
+      "path": "textures/relic_art/ReserveEnergySmallIcon.png"
+    },
+    {
+      "id": "SingingBowlIcon",
+      "path": "textures/relic_art/SingingBowlIcon.png"
+    },
+    {
+      "id": "SingingBowlSmallIcon",
+      "path": "textures/relic_art/SingingBowlSmallIcon.png"
+    },
+    {
+      "id": "PrayerWheelIcon",
+      "path": "textures/relic_art/PrayerWheelIcon.png"
+    },
+    {
+      "id": "PrayerWheelSmallIcon",
+      "path": "textures/relic_art/PrayerWheelSmallIcon.png"
+    },
+    {
+      "id": "PrajnaShieldIcon",
+      "path": "textures/relic_art/PrajnaShieldIcon.png"
+    },
+    {
+      "id": "PrajnaShieldSmallIcon",
+      "path": "textures/relic_art/PrajnaShieldSmallIcon.png"
+    },
+    {
+      "id": "SyncMatrixIcon",
+      "path": "textures/relic_art/SyncMatrixIcon.png"
+    },
+    {
+      "id": "SyncMatrixSmallIcon",
+      "path": "textures/relic_art/SyncMatrixSmallIcon.png"
+    },
+    {
+      "id": "InsightCircuitIcon",
+      "path": "textures/relic_art/InsightCircuitIcon.png"
+    },
+    {
+      "id": "InsightCircuitSmallIcon",
+      "path": "textures/relic_art/InsightCircuitSmallIcon.png"
+    },
+    {
+      "id": "AsuraMarkIcon",
+      "path": "textures/relic_art/AsuraMarkIcon.png"
+    },
+    {
+      "id": "AsuraMarkSmallIcon",
+      "path": "textures/relic_art/AsuraMarkSmallIcon.png"
+    },
+    {
+      "id": "MaraIcon",
+      "path": "textures/icons/MaraIcon.png"
+    },
+    {
+      "id": "MaraLockedIcon",
+      "path": "textures/icons/MaraLockedIcon.png"
+    },
+    {
+      "id": "MaraPortrait",
+      "path": "textures/icons/MaraPortrait.png"
+    },
+    {
+      "id": "NayutaIcon",
+      "path": "textures/icons/NayutaIcon.png"
+    },
+    {
+      "id": "NayutaLockedIcon",
+      "path": "textures/icons/NayutaLockedIcon.png"
+    },
+    {
+      "id": "NayutaPortrait",
+      "path": "textures/icons/NayutaPortrait.png"
+    },
+    {
+      "id": "BasicClanSmallIcon",
+      "path": "textures/icons/BasicClanSmallIcon.png"
+    },
+    {
+      "id": "BasicClanMediumIcon",
+      "path": "textures/icons/BasicClanMediumIcon.png"
+    },
+    {
+      "id": "BasicClanLargeIcon",
+      "path": "textures/icons/BasicClanLargeIcon.png"
+    },
+    {
+      "id": "BasicClanSilhouetteIcon",
+      "path": "textures/icons/BasicClanSilhouetteIcon.png"
+    },
+    {
+      "id": "CardDraftIcon",
+      "path": "textures/icons/BasicClanCardDraft.png"
+    },
+    {
+      "id": "TemporaryIcon",
+      "path": "textures/icons/TemporaryIcon.png"
+    },
+    {
+      "id": "AsuraArenaIcon",
+      "path": "textures/icons/AsuraArenaIcon.png"
+    },
+    {
+      "id": "MeditationChamberIcon",
+      "path": "textures/icons/MeditationChamberIcon.png"
+    },
+    {
+      "id": "AccelerationMatrixIcon",
+      "path": "textures/icons/AccelerationMatrixIcon.png"
+    },
+    {
+      "id": "ChargedSpearIcon",
+      "path": "textures/icons/ChargedSpearIcon.png"
+    },
+    {
+      "id": "SoulBackupIcon",
+      "path": "textures/icons/SoulBackupIcon.png"
+    },
+    {
+      "id": "AsuraDriveIcon",
+      "path": "textures/icons/AsuraDriveIcon.png"
+    }
+  ]
+}
