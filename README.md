@@ -14,6 +14,7 @@
 - 魔罗解放路线读取英雄卡升级，恢复保留业力的判断。
 - 修罗场授予普通敌人的不懈不再赋予拆层权限；保留首领和天生不懈单位的原版行为。
 - 三昧收集停滞词条；停滞/不懈缺少卡牌提示时复用原版单位提示。
+- 乐欲盛宴费用由3点下调为2点
 
 详见 `BUGFIX-NOTES.md`；实际检查结果及日志见 `VALIDATION-REPORT.json`。0.2.8结构改动记录保留在 `REFACTOR-NOTES.md`。
 
@@ -40,6 +41,21 @@
 不要在模组JSON目录保留旧副本；加载器读取全部JSON，备份应放在模组目录之外。
 
 请用新开局测试撤销回合。本版不保证重放旧版已经发生状态失配的战斗。
+
+## 版权说明
+
+本项目**源代码使用 MIT 许可证**。
+项目内第三方美术、资源素材保留原作者版权，**不适用MIT协议**，使用这些素材请遵守原作者声明。
+
+本MOD代码及大部分美术素材均由AI生成，部分图标素材来自game-icons.net
+
+代码生成：GPT6Astra
+
+美术：Midjourney/Nano Banana2/Seedream 5.0 pro
+
+Mighty force icon by [Delapouite](https://delapouite.com/) under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+
+Cogsplosion icon by [Lorc](https://lorcblog.blogspot.com/) under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
 
 ## English
 
